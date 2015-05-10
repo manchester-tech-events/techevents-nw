@@ -1,0 +1,2 @@
+require './site'
+App.run!

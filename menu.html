@@ -1,0 +1,1362 @@
+<html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properities -->
+  <title>Snap Portal</title>
+
+  <link rel="stylesheet" type="text/css" href="/css/semantic.css">
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+
+  <!-- Used with Tab History !-->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+  <script src="/js/semantic.js"></script>
+</head>
+<body id="example" class="menu pushable">
+  
+<div class="ui fixed inverted main menu">
+  <div class="container">
+    <a class="launch item">
+      <i class="content icon"></i>
+      Menu
+    </a>
+    
+      <div class="title item">
+        <b>UI Collection:</b> Menu
+      </div>
+      
+      <a class="icon item" href="/collections/grid.html"><i class="left chevron icon"></i></a>
+      
+      <div class="section ui page dropdown link item">
+        <span class="count">4 of 6</span>
+        <div class="menu">
+          
+            <a class="item" href="/collections/breadcrumb.html">
+              Breadcrumb
+            </a>
+          
+            <a class="item" href="/collections/form.html">
+              Form
+            </a>
+          
+            <a class="item" href="/collections/grid.html">
+              Grid
+            </a>
+          
+            <a class="active item" href="/collections/menu.html">
+              Menu
+            </a>
+          
+            <a class="item" href="/collections/message.html">
+              Message
+            </a>
+          
+            <a class="item" href="/collections/table.html">
+              Table
+            </a>
+          
+        </div>
+      </div>
+      
+      <a class="icon item" href="/collections/message.html"><i class="right chevron icon"></i></a>
+      
+    
+    <div class="right menu">
+      <div class="vertically fitted borderless item">
+        
+        <iframe class="github" src="http://ghbtns.com/github-btn.html?user=semantic-org&amp;repo=semantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        
+      </div>
+      <a class="popup icon music item" data-content="Play Music">
+        <i class="alternate music icon"></i>
+      </a>
+      <a class="popup icon github item" data-content="View project on GitHub" href="https://github.com/Semantic-Org/Semantic-UI">
+        <i class="alternate github icon"></i>
+      </a>
+      <div class="ui language dropdown item" id="languages" data-content="Select Language">
+        <i class="world icon"></i>
+        <div class="menu">
+  <div class="item" data-percent="100" data-value="en" data-english="English">English</div>
+  <div class="item" data-percent="94" data-value="da" data-english="Danish">dansk</div>
+  <div class="item" data-percent="94" data-value="es" data-english="Spanish">Español</div>
+  <div class="item" data-percent="34" data-value="zh" data-english="Chinese">简体中文</div>
+  <div class="item" data-percent="54" data-value="zh_TW" data-english="Chinese (Taiwan)">中文 (臺灣)</div>
+  <div class="item" data-percent="79" data-value="fa" data-english="Persian">پارسی</div>
+  <div class="item" data-percent="41" data-value="fr" data-english="French">Français</div>
+  <div class="item" data-percent="37" data-value="el" data-english="Greek">ελληνικά</div>
+  <div class="item" data-percent="37" data-value="ru" data-english="Russian">Русский</div>
+  <div class="item" data-percent="36" data-value="de" data-english="German">Deutsch</div>
+  <div class="item" data-percent="23" data-value="it" data-english="Italian">Italiano</div>
+  <div class="item" data-percent="21" data-value="nl" data-english="Dutch">Nederlands</div>
+  <div class="item" data-percent="19" data-value="pt_BR" data-english="Portuguese">Português(BR)</div>
+  <div class="item" data-percent="17" data-value="id" data-english="Indonesian">Indonesian</div>
+  <div class="item" data-percent="12" data-value="lt" data-english="Lithuanian">Lietuvių</div>
+  <div class="item" data-percent="11" data-value="tr" data-english="Turkish">Türkçe</div>
+  <div class="item" data-percent="10" data-value="kr" data-english="Korean">한국어</div>
+  <div class="item" data-percent="7" data-value="ar" data-english="Arabic">العربية</div>
+  <div class="item" data-percent="6" data-value="hu" data-english="Hungarian">Magyar</div>
+  <div class="item" data-percent="6" data-value="vi" data-english="Vietnamese">tiếng Việt</div>
+  <div class="item" data-percent="5" data-value="sv" data-english="Swedish">svenska</div>
+  <div class="item" data-precent="4" data-value="pl" data-english="Polish">polski</div>
+  <div class="item" data-percent="6" data-value="ja" data-english="Japanese">日本語</div>
+  <div class="item" data-percent="0" data-value="ro" data-english="Romanian">românește</div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="pusher">
+    <div class="full height">
+      <link rel="stylesheet/less" type="text/css" href="/src/definitions/collections/menu.less">
+<script src="/javascript/menu.js"></script>
+
+
+
+<div class=" header segment">
+  <div class="container">
+    <div class="introduction">
+
+      <h1 class="ui header">
+        Menu
+        
+      </h1>
+
+      <p>A menu displays grouped navigation actions</p>
+      
+      <div class="ui divider"></div>
+      
+      
+      
+      <div class="ui right floated floating overview dropdown basic button" tabindex="0">
+        <span class="text">Definition Type</span>
+        <div class="menu" tabindex="-1">
+          <div data-value="design" class="active item">Design</div>
+          <div data-value="code" class="item">Code</div>
+          <div data-value="overview" class="item">Summary</div>
+        </div>
+      </div>
+      
+      
+      <div class="ui floating dropdown theme basic button" data-element="menu" data-type="collection" tabindex="0">
+        <span class="text">2 Themes</span>
+        <div class="menu ui transition hidden" tabindex="-1">
+          
+            <div class="item" data-value="Default" data-text="Default Theme">Default</div>
+          
+            <div class="item" data-value="GitHub" data-text="GitHub Theme">GitHub</div>
+          
+        </div>
+      </div>
+      
+      
+      <div class="ui download primary button">
+        Download
+      </div>
+      <div class="ui flowing download popup">
+        <div class="ui divided equal height relaxed center aligned choice grid">
+          <div class="framework column">
+            <h4 class="ui center aligned header">UI Framework</h4>
+            <div class="ui list">
+              <div class="item"><i class="green check icon"></i> Themable</div>
+              <div class="item"><i class="green check icon"></i> Build Tools</div>
+            </div>
+            <div class="ui primary fluid button">Choose</div>
+          </div>
+          <div class="standalone column">
+            <h4 class="ui center aligned header">Standalone</h4>
+            <div class="ui list">
+              <div class="item">Default Theme</div>
+              <div class="item">Precompiled</div>
+            </div>
+            <div class="ui fluid button basic">Choose</div>
+          </div>
+        </div>
+        <div class="ui divided equal height relaxed center aligned framework grid">
+          <div class="column">
+            <div class="ui header">Semantic UI</div>
+            <a class="ui primary button" href="https://github.com/Semantic-Org/Semantic-UI/archive/master.zip">
+              Download ZIP
+            </a>
+            <a class="ui button" href="http://learnsemantic.com/guide/expert.html">Getting Started</a>
+            <h4 class="ui header">Package Managers</h4>
+            <div class="ui form">
+              <div class="field">
+                <label>Bower</label>
+                <div class="ui fluid input">
+                  <input type="text" readonly="readonly" placeholder="Copy Link" value="bower install semantic-ui">
+                </div>
+              </div>
+              <div class="field">
+                <label>NPM</label>
+                <div class="ui fluid input">
+                  <input type="text" readonly="readonly" placeholder="Copy Link" value="npm install semantic-ui">
+                </div>
+              </div>
+              <div class="field">
+                <label>Git</label>
+                <div class="ui fluid input">
+                  <input type="text" readonly="readonly" placeholder="Copy Link" value="https://github.com/Semantic-Org/Semantic-UI.git">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ui divided equal height relaxed center aligned standalone grid">
+          <div class="column">
+            <div class="ui header">Standalone Menu</div>
+            <a class="ui primary button" href="https://github.com/Semantic-Org/UI-Menu/archive/master.zip">
+              Download ZIP
+            </a>
+            <a class="ui button" href="https://github.com/Semantic-Org/UI-Menu/">
+              View GitHub
+            </a>
+            <h4 class="ui header">Package Managers</h4>
+            <div class="ui form">
+              <div class="field">
+                <label>Bower</label>
+                <div class="ui fluid input">
+                  <input type="text" readonly="readonly" placeholder="Copy Link" value="bower install semantic-ui-menu">
+                </div>
+              </div>
+              <div class="field">
+                <label>NPM</label>
+                <div class="ui fluid input">
+                  <input type="text" readonly="readonly" placeholder="Copy Link" value="npm install semantic-ui-menu">
+                </div>
+              </div>
+              <div class="field">
+                <label>Git</label>
+                <div class="ui fluid input">
+                  <input type="text" readonly="readonly" placeholder="Copy Link" value="https://github.com/Semantic-Org/UI-Menu.git">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="advertisement">
+      
+      <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"><span><span class="carbonad-image"><a href="http://srv.carbonads.net/ads/click/x/GTND423LCVAIK27JF6Y4YKQWCV7DL2QICWBI6Z3JCE7D65QICEAIK53KC6BD6KJ7CYADVK3EHJNCLSIZ?segment=placement:semanticuicom" target="_blank"><img width="130" height="100" border="0" src="https://assets.servedby-buysellads.com/p/manage/asset/id/20375" class="carbonad-image carbonad-img"></a></span><span class="carbonad-text"><a href="http://srv.carbonads.net/ads/click/x/GTND423LCVAIK27JF6Y4YKQWCV7DL2QICWBI6Z3JCE7D65QICEAIK53KC6BD6KJ7CYADVK3EHJNCLSIZ?segment=placement:semanticuicom">99% Post-Program Hiring Rate, $105k Average Graduate Salary</a></span><span class="carbonad-tag">ads via <a href="http://carbonads.com">Carbon</a></span></span></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/51619/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+      
+    </div>
+    
+  </div>
+</div>
+
+<div class="main container"><div class="ui close right rail" style="height: 10637px;"><div class="ui sticky" style="width: 300px; height: 442px;"><div class="ui secondary vertical following fluid accordion menu"><div class="item"><a class="active title"><i class="dropdown icon" tabindex="0"></i> <b>Types</b></a><div class="active content menu"><a class="item" href="#menu">Menu</a><a class="item" href="#vertical-menu">Vertical Menu</a><a class="item" href="#pagination">Pagination</a><a class="item" href="#tabular">Tabular</a><a class="item" href="#tiered-menu">Tiered Menu</a><a class="item" href="#vertical-menu-w-sub-menus">Vertical Menu w/ Sub Menus</a><a class="item" href="#secondary-menu">Secondary Menu</a><a class="item" href="#pointing">Pointing</a><a class="item" href="#text">Text</a></div></div><div class="item"><a class="title"><i class="dropdown icon" tabindex="0"></i> <b>Elements</b></a><div class="content menu"><a class="item" href="#header-item">Header Item</a><a class="item" href="#text-item">Text Item</a><a class="item" href="#input">Input</a><a class="item" href="#button">Button</a><a class="item" href="#link-item">Link Item</a><a class="item" href="#dropdown-item">Dropdown Item</a><a class="item" href="#menu">Menu</a><a class="item" href="#nested-menu">Nested Menu</a></div></div><div class="item"><a class="title"><i class="dropdown icon" tabindex="0"></i> <b>States</b></a><div class="content menu"><a class="item" href="#hover">Hover</a><a class="item" href="#down">Down</a><a class="item" href="#active">Active</a></div></div><div class="item"><a class="title"><i class="dropdown icon" tabindex="0"></i> <b>Variations</b></a><div class="content menu"><a class="item" href="#inverted">Inverted</a><a class="item" href="#colors">Colors</a><a class="item" href="#icons">Icons</a><a class="item" href="#icons">Icons</a><a class="item" href="#fluid">Fluid</a><a class="item" href="#evenly-sized-items">Evenly sized items</a><a class="item" href="#attached">Attached</a><a class="item" href="#horizontal-sizes">Horizontal Sizes</a><a class="item" href="#fitted">Fitted</a><a class="item" href="#borderless">Borderless</a></div></div></div></div></div>
+
+  <h2 class="ui dividing header">Types<a class="anchor" id="types"></a></h2>
+  <div class="example">
+    <h4 class="ui header">Menu</h4><i class="icon code"></i><a class="anchor" id="menu"></a>
+
+    <p>A menu</p>
+    <div class="ui menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <div class="right menu">
+        <div class="item">
+          <div class="ui transparent icon input">
+            <input type="text" placeholder="Search...">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Vertical Menu</h4><i class="icon code"></i><a class="anchor" id="vertical-menu"></a>
+    <p>A vertical menu displays elements vertically..</p>
+    <div class="ui ignore warning message"><i class="icon heart"></i> A vertical menu's width defaults to an arbitrary size. To have it fit your content more precisely use the fluid variation in conjunction with <a href="grid.html">ui grid</a>.</div>
+
+    <div class="ui vertical menu">
+      <a class="active teal item">
+        Inbox
+        <div class="ui teal label">1</div>
+      </a>
+      <a class="item">
+        Spam
+        <div class="ui label">51</div>
+      </a>
+      <a class="item">
+        Updates
+        <div class="ui label">1</div>
+      </a>
+      <div class="item">
+        <div class="ui transparent icon input">
+          <input type="text" placeholder="Search mail...">
+          <i class="search icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Pagination</h4><i class="icon code"></i><a class="anchor" id="pagination"></a>
+    <p>A pagination menu is specially formatted to present links to pages of content</p>
+    <div class="ui pagination menu">
+      <a class="icon item">
+        <i class="left arrow icon"></i>
+      </a>
+      <a class="active item">
+        1
+      </a>
+      <div class="disabled item">
+        ...
+      </div>
+      <a class="item">
+        10
+      </a>
+      <a class="item">
+        11
+      </a>
+      <a class="item">
+        12
+      </a>
+      <a class="icon item">
+        <i class="right arrow icon"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Tabular</h4><i class="icon code"></i><a class="anchor" id="tabular"></a>
+    <p>A message can be formatted to show tabs of information</p>
+    <div class="ui tabular menu">
+      <a class="active item">
+        Bio
+      </a>
+      <a class="item">
+        Pics
+      </a>
+    </div>
+  </div>
+  <div class="another example">
+    <i class="icon code"></i><div class="ui top attached tabular menu">
+      <a class="active item">
+        Bio
+      </a>
+      <a class="item">
+        Pics
+      </a>
+    </div>
+    <div class="ui bottom attached segment">
+      This is the content of the tab.
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Tiered Menu</h4><i class="icon code"></i><a class="anchor" id="tiered-menu"></a>
+    <p>A tiered menu can show the sub-sections available as part of an activated section.</p>
+    <div class="ui tiered menu">
+      <div class="menu">
+        <a class="active item">
+          <i class="users icon"></i>
+          Friends
+        </a>
+        <a class="item">
+          <i class="grid layout icon"></i> Browse
+        </a>
+        <a class="item">
+          <i class="mail icon"></i> Messages
+        </a>
+        <div class="right menu">
+          <div class="item">
+            <div class="ui icon input">
+              <input type="text" placeholder="Search...">
+              <i class="search icon"></i>
+            </div>
+          </div>
+          <div class="ui dropdown item" tabindex="0">
+            More <i class="icon dropdown" tabindex="0"></i>
+            <div class="menu" tabindex="-1">
+              <a class="item"><i class="edit icon"></i> Edit Profile</a>
+              <a class="item"><i class="globe icon"></i> Choose Language</a>
+              <a class="item"><i class="settings icon"></i> Account Settings</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui sub menu">
+        <a class="active item">Search</a>
+        <a class="item">Add</a>
+        <a class="item">Remove</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Vertical Menu w/ Sub Menus</h4><i class="icon code"></i><a class="anchor" id="vertical-menu-w-sub-menus"></a>
+    <p>A tiered menu can show the sub-sections available as part of an activated section.</p>
+    <div class="ui vertical menu">
+      <div class="item">
+        <div class="ui input"><input type="text" placeholder="Search..."></div>
+      </div>
+      <div class="item">
+        <i class="home icon"></i> Home
+        <div class="menu">
+          <a class="active item">Search</a>
+          <a class="item">Add</a>
+          <a class="item">Remove</a>
+        </div>
+      </div>
+      <a class="item">
+        <i class="grid layout icon"></i> Browse
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <div class="ui dropdown item" tabindex="0">
+        <i class="dropdown icon" tabindex="0"></i>
+        More
+        <div class="menu" tabindex="-1">
+          <a class="item"><i class="edit icon"></i> Edit Profile</a>
+          <a class="item"><i class="globe icon"></i> Choose Language</a>
+          <a class="item"><i class="settings icon"></i> Account Settings</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="example">
+    <h4 class="ui header">Secondary Menu</h4><i class="icon code"></i><a class="anchor" id="secondary-menu"></a>
+    <p>A secondary menu allows for a section of content on a page to be activated</p>
+    <div class="ui secondary  menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+      <div class="right menu">
+        <div class="item">
+          <div class="ui icon input">
+            <input type="text" placeholder="Search...">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+        <a class="ui item">
+          Logout
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="another example">
+    <i class="icon code"></i><div class="ui secondary vertical menu">
+      <a class="active item">
+        <i class="users icon"></i>
+        Friends
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+      <div class="ui dropdown item" tabindex="0">
+        <i class="dropdown icon" tabindex="0"></i>
+        More
+        <div class="menu" tabindex="-1">
+          <a class="item"><i class="edit icon"></i> Edit Profile</a>
+          <a class="item"><i class="globe icon"></i> Choose Language</a>
+          <a class="item"><i class="settings icon"></i> Account Settings</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Pointing</h4><i class="icon code"></i><a class="anchor" id="pointing"></a>
+    <p>A menu can point to content to show relationship</p>
+    <div class="ui pointing menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+      <div class="right menu">
+        <div class="item">
+          <div class="ui icon input">
+            <input type="text" placeholder="Search...">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+        <div class="ui dropdown item" tabindex="0">
+          <i class="dropdown icon" tabindex="0"></i>
+          Language
+          <div class="menu" tabindex="-1">
+            <a class="item">English</a>
+            <a class="item">Russian</a>
+            <a class="item">Spanish</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="another example">
+    <i class="icon code"></i><div class="ui vertical pointing menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+  </div>
+  <div class="another example">
+    <i class="icon code"></i><div class="ui secondary pointing menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+      <div class="right menu">
+        <div class="item">
+          <div class="ui icon input">
+            <input type="text" placeholder="Search...">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+        <a class="ui item">
+          Logout
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="another example">
+    <i class="icon code"></i><div class="ui secondary vertical pointing menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Text</h4><i class="icon code"></i><a class="anchor" id="text"></a>
+    <p>A menu can display simple text links</p>
+    <div class="ui text menu">
+      <div class="header item">Sort By</div>
+      <a class="active item">
+        <i class="home icon"></i> Closest
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Most Comments
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Most Popular
+      </a>
+    </div>
+  </div>
+  <div class="another example">
+    <i class="icon code"></i><div class="ui vertical text menu">
+      <div class="header item">Sort By</div>
+      <a class="active item">
+        <i class="home icon"></i> Closest
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Most Comments
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Most Popular
+      </a>
+    </div>
+  </div>
+
+  <h2 class="ui dividing header">Elements<a class="anchor" id="elements"></a></h2>
+
+  <div class="example">
+    <h4 class="ui header">Header Item</h4><i class="icon code"></i><a class="anchor" id="header-item"></a>
+    <p>A menu may have a header to help label sections of a menu.</p>
+    <div class="ui vertical menu">
+      <div class="header item">
+        <i class="user icon"></i>
+        Communities
+      </div>
+      <div class="item">
+        College
+        <div class="menu">
+          <a class="item">Baseball</a>
+          <a class="item">Basketball</a>
+          <a class="item">Golf</a>
+        </div>
+      </div>
+      <a class="item">
+        Dance
+      </a>
+      <a class="item">
+        Aerobics
+      </a>
+      <div class="header item">
+        <i class="globe icon"></i>
+        Cities
+      </div>
+      <a class="item">
+        New York
+      </a>
+      <a class="item">
+        Montreal
+      </a>
+      <a class="item">
+        Los Angeles
+      </a>
+      <a class="item">
+        San Francisco
+      </a>
+      <div class="header item">
+        <i class="icon calendar"></i>
+        Months
+      </div>
+      <a class="item">
+        August
+      </a>
+      <a class="item">
+        June
+      </a>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Text Item</h4><i class="icon code"></i><a class="anchor" id="text-item"></a>
+    <p>A menu may have a simple text item.</p>
+    <div class="ui ignore info message">
+      <p><i class="icon heart"></i> Single paragraphs are automatically formatted as text. You can also specify an item as textual by adding the classname <b>text</b></p>
+    </div>
+    <div class="ui vertical menu">
+      <div class="header item">
+        Promotions
+        <span class="ui teal label">New</span>
+      </div>
+      <div class="text item">
+        <a>Join now</a> and save $10 on a pro membership!
+      </div>
+      <div class="item">
+        <p><a>Join tomorrow</a> and save $5 on pro.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Input</h4><i class="icon code"></i><a class="anchor" id="input"></a>
+    <p>A menu item can contain an <a href="/elements/input.html">input</a> inside of it</p>
+    <div class="ui menu">
+      <div class="right item">
+        <div class="ui icon input">
+          <input type="text" placeholder="Search...">
+          <i class="search icon"></i>
+        </div>
+      </div>
+      <div class="item">
+        <div class="ui action input">
+          <input type="text" placeholder="Navigate to...">
+          <div class="ui button">Go</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="example">
+    <h4 class="ui header">Button</h4><i class="icon code"></i><a class="anchor" id="button"></a>
+    <p>A menu item can contain a <a href="/elements/button.html">button</a> inside of it</p>
+
+    <div class="ui menu">
+      <div class="item">
+        <div class="ui primary button">Sign up</div>
+      </div>
+      <div class="item">
+        <div class="ui button">Log-in</div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="example">
+    <h4 class="ui header">Link Item</h4><i class="icon code"></i><a class="anchor" id="link-item"></a>
+    <p>A menu may contain a link item, or an item formatted as if it is a link.</p>
+
+    <div class="ui ignore info message">
+      <p><i class="icon heart"></i> Items that are anchor tags will automatically be formatted as a link.</p>
+    </div>
+    <div class="ui vertical menu">
+      <a href="http://www.google.com" class="item">
+        Visit Google
+      </a>
+      <div class="link item">
+        Javascript Link
+      </div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Dropdown Item</h4><i class="icon code"></i><a class="anchor" id="dropdown-item"></a>
+    <p>An item may contain a nested menu in a dropdown.</p>
+    <div class="ui ignore warning message">
+      <p><i class="icon heart"></i>Dropdowns use <a href="/modules/dropdown.html">UI dropdown elements</a>. To have a dropdown open without javascript, use the simple variation</p>
+    </div>
+    <div class="ui vertical menu">
+      <div class="ui dropdown item" tabindex="0">
+        <i class="dropdown icon" tabindex="0"></i>
+        Categories
+        <div class="menu" tabindex="-1">
+          <a class="item">Electronics</a>
+          <a class="item">Automotive</a>
+          <a class="item">Home</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="example">
+    <h4 class="ui header">Menu</h4><i class="icon code"></i><a class="anchor" id="menu"></a>
+    <p>A menu may contain another menu group in the same level as menu items.</p>
+    <div class="ui menu">
+      <a class="item">Browse</a>
+      <a class="item">Submit</a>
+      <div class="right menu">
+        <a class="item">Sign Up</a>
+        <a class="item">Help</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Nested Menu</h4><i class="icon code"></i><a class="anchor" id="nested-menu"></a>
+    <p>A menu item may contain another menu nested inside that acts as a grouped sub-menu.</p>
+    <div class="ui vertical menu">
+      <a class="item"><b>Friends</b></a>
+      <div class="item">
+        <a><b>Your Profile</b></a>
+        <div class="menu">
+          <a class="item">Inbox</a>
+          <a class="item">Activity</a>
+          <a class="item">Groups</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <h2 class="ui dividing header">States<a class="anchor" id="states"></a></h2>
+
+  <div class="example">
+    <h4 class="ui header">Hover</h4><i class="icon code"></i><a class="anchor" id="hover"></a>
+    <p>A menu item can be hovered</p>
+    <div class="ui ignore warning message"><i class="icon heart"></i> Menu items are only hoverable if they are links, defined with the variant "link", or are given the class name hover programmatically.</div>
+    <div class="ui compact menu">
+      <div class="hover item">
+        Link
+      </div>
+    </div>
+  </div>
+
+
+  <div class="example">
+    <h4 class="ui header">Down</h4><i class="icon code"></i><a class="anchor" id="down"></a>
+    <p>A menu item can be pressed in</p>
+    <div class="ui compact menu">
+      <div class="down item">
+        Link
+      </div>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Active</h4><i class="icon code"></i><a class="anchor" id="active"></a>
+    <p>A menu item can be active</p>
+    <div class="ui compact menu">
+      <div class="active item">
+        Link
+      </div>
+    </div>
+  </div>
+
+
+  <h2 class="ui dividing header">Variations<a class="anchor" id="variations"></a></h2>
+
+  <h3 class="ui header">Menu</h3>
+  <div class="example">
+    <h4 class="ui header">Inverted</h4><i class="icon code"></i><a class="anchor" id="inverted"></a>
+    <p>A menu may have its colors inverted to show greater contrast</p>
+    <div class="ui inverted menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+  </div>
+  <div class="example">
+    <h4 class="ui header">Colors</h4><i class="icon code"></i><a class="anchor" id="colors"></a>
+    <p>Additional colors can be specified.</p>
+    <div class="ui menu">
+      <a class="active green item">
+        <i class="home icon"></i> Green
+      </a>
+      <a class="red item">
+        <i class="mail icon"></i> Red
+      </a>
+      <a class="blue item">
+        <i class="user icon"></i> Blue
+      </a>
+      <a class="orange item">
+        <i class="home icon"></i> Orange
+      </a>
+      <a class="purple item">
+        <i class="mail icon"></i> Purple
+      </a>
+      <a class="teal item">
+        <i class="user icon"></i> Teal
+      </a>
+    </div>
+    <br>
+    <div class="ui red menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+    <br>
+    <div class="ui blue menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+    <br>
+    <div class="ui orange menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+    <br>
+    <div class="ui purple menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+    <br>
+    <div class="ui teal menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+  </div>
+  <div class="another example">
+    <i class="icon code"></i><p>These colors can also be inverted</p>
+    <div class="ui green inverted menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+    <br>
+    <div class="ui red inverted menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+    <br>
+    <div class="ui blue inverted menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+    <br>
+    <div class="ui orange inverted menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+    <br>
+    <div class="ui purple inverted menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+    <br>
+    <div class="ui teal inverted menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>
+      <a class="item">
+        <i class="user icon"></i> Friends
+      </a>
+    </div>
+  </div>
+
+
+  <div class="example">
+    <h4 class="ui header">Icons</h4><i class="icon code"></i><a class="anchor" id="icons"></a>
+    <p>A menu may have just icons</p>
+    <div class="ui icon menu">
+      <a class="red item">
+        <i class="mail icon"></i>
+      </a>
+      <a class="teal item">
+        <i class="lab icon"></i>
+      </a>
+      <a class="green item">
+        <i class="star icon"></i>
+      </a>
+    </div>
+    <br><br>
+    <div class="ui vertical icon menu">
+      <a class="red item">
+        <i class="mail icon"></i>
+      </a>
+      <a class="teal item">
+        <i class="lab icon"></i>
+      </a>
+      <a class="green item">
+        <i class="star icon"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Icons</h4><i class="icon code"></i><a class="anchor" id="icons"></a>
+    <p>A menu may have labeled icons</p>
+    <div class="ui labeled icon menu">
+      <a class="red item">
+        <i class="mail icon"></i>
+        Mail
+      </a>
+      <a class="teal item">
+        <i class="lab icon"></i>
+        Lab
+      </a>
+      <a class="green item">
+        <i class="star icon"></i>
+        Favorites
+      </a>
+    </div>
+    <br><br>
+    <div class="ui vertical labeled icon menu">
+      <a class="red item">
+        <i class="mail icon"></i>
+        Mail
+      </a>
+      <a class="teal item">
+        <i class="lab icon"></i>
+        Lab
+      </a>
+      <a class="green item">
+        <i class="star icon"></i>
+        Favorites
+      </a>
+    </div>
+  </div>
+
+
+  <div class="example">
+    <h4 class="ui header">Fluid</h4><i class="icon code"></i><a class="anchor" id="fluid"></a>
+    <p>A vertical menu may take the size of its container. (A horizontal menu does this by default) </p>
+    <div class="ui fluid vertical menu">
+      <a class="item">Run</a>
+      <a class="item">Walk</a>
+      <a class="item">Bike</a>
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Evenly sized items</h4><i class="icon code"></i><a class="anchor" id="evenly-sized-items"></a>
+    <p>A menu may divide its items evenly</p>
+    <div class="ui fluid three item menu">
+      <a class="item">Buy</a>
+      <a class="item">Sell</a>
+      <a class="item">Rent</a>
+    </div>
+  </div>
+
+  <div class="example">
+    <p>A vertical menu can point to content adjacent to itself to show ownership</p>
+    <i class="icon code"></i><div class="ui pointing vertical menu">
+      <a class="item">
+        Site Title
+      </a>
+      <div class="item">
+        <b>Grouped Section</b>
+        <div class="menu">
+          <a class="item">Subsection 1</a>
+          <a class="active item">Subsection 1</a>
+          <a class="item">Subsection 1</a>
+        </div>
+      </div>
+      <div class="ui dropdown item" tabindex="0">
+        Dropdown <i class="dropdown icon" tabindex="0"></i>
+        <div class="menu" tabindex="-1">
+          <div class="item">Choice 1</div>
+          <div class="item">Choice 2</div>
+          <div class="item">Choice 3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="example">
+    <h4 class="ui header">Attached</h4><i class="icon code"></i><a class="anchor" id="attached"></a>
+    <p>A menu may be attached to other content segments</p>
+    <div class="ui top attached tabular menu">
+      <a class="active item">
+        Tab 1
+      </a>
+      <a class="item">
+        Tab 2
+      </a>
+    </div>
+    <div class="ui bottom attached segment">
+      There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    </div>
+  </div>
+
+  <div class="example">
+    <h4 class="ui header">Horizontal Sizes</h4><i class="icon code"></i><a class="anchor" id="horizontal-sizes"></a>
+    <p>A horizontal menu can vary in size</p>
+    <div class="ui large menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>1
+      <div class="right menu">
+        <div class="item">
+          <div class="ui icon input">
+            <input type="text" placeholder="Search...">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+        <div class="ui dropdown item" tabindex="0">
+          Language <i class="dropdown icon" tabindex="0"></i>
+          <div class="menu" tabindex="-1">
+            <a class="item">English</a>
+            <a class="item">Russian</a>
+            <a class="item">Spanish</a>
+          </div>
+        </div>
+        <div class="item">
+            <div class="ui primary button">Sign Up</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="another example">
+    <i class="icon code"></i><div class="ui small menu">
+      <a class="active item">
+        <i class="home icon"></i> Home
+      </a>
+      <a class="item">
+        <i class="mail icon"></i> Messages
+      </a>1
+      <div class="right menu">
+        <div class="item">
+          <div class="ui icon input">
+            <input type="text" placeholder="Search...">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+        <div class="ui dropdown item" tabindex="0">
+          Language <i class="dropdown icon" tabindex="0"></i>
+          <div class="menu" tabindex="-1">
+            <a class="item">English</a>
+            <a class="item">Russian</a>
+            <a class="item">Spanish</a>
+          </div>
+        </div>
+        <div class="item">
+            <div class="ui primary button">Sign Up</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="example">
+    <p>A vertical menu can also vary in size</p>
+    <i class="icon code"></i><div class="ui large vertical menu">
+      <a class="active item">
+        <div class="ui teal label">1</div>
+        Inbox
+      </a>
+      <a class="item">
+        <div class="ui label">51</div>
+        Spam
+      </a>
+      <a class="item">
+        <div class="ui label">1</div>
+        Updates
+      </a>
+      <div class="item">
+        <div class="ui icon input">
+          <input type="text" placeholder="Search mail...">
+          <i class="search icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="another example">
+    <i class="icon code"></i><div class="ui small vertical menu">
+      <a class="active item">
+        <div class="ui small teal label">1</div>
+        Inbox
+      </a>
+      <a class="item">
+        <div class="ui small label">51</div>
+        Spam
+      </a>
+      <a class="item">
+        <div class="ui small label">1</div>
+        Updates
+      </a>
+      <div class="item">
+        <div class="ui icon input">
+          <input type="text" placeholder="Search mail...">
+          <i class="search icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="ui header">Items</h3>
+
+  <div class="example">
+    <h4 class="ui header">Fitted</h4><i class="icon code"></i><a class="anchor" id="fitted"></a>
+    <p>A menu item or menu can remove element padding, vertically or horizontally</p>
+    <div class="ui menu">
+      <div class="fitted item">
+        No padding whatsoever
+      </div>
+      <div class="horizontally fitted item">
+        No horizontal padding
+      </div>
+      <div class="vertically fitted item">
+        No vertical padding
+      </div>
+    </div>
+  </div>
+
+
+  <div class="example">
+    <h4 class="ui header">Borderless</h4><i class="icon code"></i><a class="anchor" id="borderless"></a>
+    <p>A menu item or menu can have no borders</p>
+    <div class="ui borderless pagination menu">
+      <a class="item">
+        <i class="left arrow icon"></i> Previous
+      </a>
+      <a class="item">1</a>
+      <a class="item">2</a>
+      <a class="item">3</a>
+      <a class="item">4</a>
+      <a class="item">5</a>
+      <a class="item">6</a>
+      <a class="item">
+        Next <i class="icon right arrow"></i>
+      </a>
+    </div>
+  </div>
+
+
+</div>
+    </div>
+    <div class="ui inverted black footer vertical segment">
+  <div class="container">
+    <div class="ui stackable inverted divided relaxed grid">
+      <div class="eight wide column">
+        <h3 class="ui inverted header">Help Make Semantic UI Better</h3>
+        <p>Maintaining an open source UI library is no small task. Support for the continued development of Semantic UI comes directly from the community.</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="7ZAF2Q8DBZAQL">
+          <button type="submit" class="ui teal button">Donate Today</button>
+        </form>
+      </div>
+      <div class="four wide column">
+        <h5 class="ui teal inverted header">Contribute</h5>
+        <div class="ui inverted link list">
+          <a class="item" href="https://www.transifex.com/organization/semantic-org/" target="_blank">Translation Hub</a>
+          <a class="item" href="https://github.com/Semantic-Org/Semantic-UI" target="_blank">Issue Tracker</a>
+          <a class="item" href="/cla.html" target="_blank">CLA</a>
+          <a class="disabled item">Create Themes</a>
+        </div>
+      </div>
+      <div class="four wide column">
+        <h5 class="ui teal inverted header">Semantic Network</h5>
+        <div class="ui inverted link list">
+          <a class="item" href="http://legacy.semantic-ui.com">Legacy Docs</a>
+          <a class="item" href="http://www.learnsemantic.com">Learn Semantic</a>
+          <a class="disabled item">Semantic Themes</a>
+          <a class="disabled item">Semantic Layouts</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="ui basic language modal">
+  <i class="close icon"></i>
+  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
+  <div class="content">
+    <div class="middle aligned image">
+      <i class="world icon"></i>
+    </div>
+    <div class="description">
+      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
+      <div class="ui inverted indicating progress">
+        <div class="bar"></div>
+      </div>
+      <p>We need your help to make Semantic available to  people who speak your language.</p>
+      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
+      </p>
+    </div>
+  </div>
+  <div class="actions">
+    <div class="ui inverted cancel button">No Thanks</div>
+    <a href="https://github.com/Semantic-Org/Semantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
+      <i class="mail icon"></i>
+      Help Translate
+    </a>
+  </div>
+</div>
+
+<div class="ui basic chinese modal">
+  <i class="close icon"></i>
+  <div class="header">Would you like to visit the mirror site?</div>
+  <div class="content">
+    <div class="middle aligned image">
+      <i class="question icon"></i>
+    </div>
+    <div class="description">
+      <p>Semantic is available at <a href="http://www.semantic-ui.cn">semantic-ui.cn</a> a mirror site hosted inside China. This should make browsing much faster for those visiting from mainland China.
+      </p>
+    </div>
+  </div>
+  <div class="actions">
+    <div class="ui inverted red cancel button">No Thanks</div>
+    <a href="http://www.semantic-ui.cn" class="ui inverted green approve button">
+      <i class="mail icon"></i>
+      Yes, take me to the mirror
+    </a>
+  </div>
+</div>
+  <div class="ui demo page dimmer">
+  <div class="content">
+    <div class="center">
+      <h2 class="ui inverted icon header">
+        <i class="mail icon"></i>
+        Dimmer Message
+        <div class="sub header">Dimmer sub-header</div>
+      </h2>
+    </div>
+  </div>
+</div>
+  <script>
+window.less = {
+  async        : true,
+  environment  : 'production',
+  fileAsync    : false,
+  onReady      : false,
+  useFileCache : true
+};
+</script>
+
+<script src="/javascript/library/less.min.js"></script>
+
+
+
+
+<span style="height: 20px; width: 40px; min-height: 20px; min-width: 40px; position: absolute; opacity: 0.85; z-index: 8675309; display: none; cursor: pointer; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAADU0lEQVR42s2WXUhTYRjHz0VEVPRFUGmtVEaFUZFhHxBhsotCU5JwBWEf1EWEEVHQx4UfFWYkFa2biPJiXbUta33OXFtuUXMzJ4bK3Nqay7m5NeZq6h/tPQ+xU20zugjOxR/+7/O8539+5znnwMtNTExwJtMb3L/fiLv3botCSmUjeCaejTOb39AiFothfHxcFIrHY8RksZjBsckJcOIRMfFsHD/SsbExUYpnI8DR0dGUGjSb0byhEJp5Uqg5CTSzc2CQleJbMEj9/ywBcGRkJEk9DQqouEVQT1sK444yWI9UonmTjGqauVLEIlHa9x8lAMbj8SSpp0rwKGMVvg8P46vbg0C7na8z8JsMcgHe7jlEa+edRhiLy8n/TUMfu6EvLElk+U0WtGwrTrdfAGQf5J8iiK4LVzDU28t8JtMSocf8E+l68myaNFXm/6rXslLK7ay5TOunuRvZWpJuvwAYjUaTpOIWoquuAZ219RTaxKYp9BbjycoN5FvL9qH9TBX5rvoGdJythvXYSTxdtRnWylO/ZdqrLsGwszzhWQ593z2KlAwCYCQSSZJ6ehZ0W7bD9VBLgN0NCqr3qR7R2rBrL3pu3Sb/7nDlz2uy6cG0OXk0GTbZXzNp8trsPAQdTj6frlWzN2DcXZGKQQAMh8NJ6rpyHe+PnkCr/CAFdZyvpfpjuvkifLF9wIt1Wwlo0OHie1RvWrKa93RjzfzliTzPKz3ltB0/Tevmwp14wGUgHAzSOoUEwFAolFaaBSuhnslPRkJexUJtZ6v5HtUeLswl33n1BgEY5fvhs9sJ3FAiT+QYyyvoAQJuD0KBAFRTJNAuz5/s3gJgMBhMJwrVFRThM5tY5zUF/A4X1f2fvQTRLCuBreoim0YmAbqNJryvPEXeeq46kaNdkQ/1HCncbJKPs9ZSv2VHGfWsZ2hfkhKAfr8/pdxWKx4wwD69PmVfNSOL+lr2w+gYqHpWDtXt1xQ8AMlWU0e1lqLd/APRHoP8AJqWrQG9gYxcPMsvSJUvAA4MDKTUJ7MZLaVy8v+qT21tcDx/OemePr0RTkNrur4A6PP5xCgBsL+/X4wiQDpuuVxOeL1eMYmYeDY6sOp0z+B0OuHxeEQhxkJMFosJiSO/UinOI/8Pc+l7KKArAT8AAAAASUVORK5CYII=);"></span></body></html>

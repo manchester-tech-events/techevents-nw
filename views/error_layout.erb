@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snap Portal</title>
+    <%= erb :_head %>
+    
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="ui basic segment">
+        <%= yield %>
+      </div> <!-- ui basic segment -->
+    </div><!-- main-content -->
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $('.ui.accordion').accordion();
+          $('select.dropdown').dropdown();
+          $('.msa.nag').nag();
+      });
+    </script>
+  </body>
+</html>
