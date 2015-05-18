@@ -43,4 +43,12 @@ class App < Sinatra::Application
 	get '/calendar' do
 		erb :calendar, :layout => :layout
 	end
+
+	get '/groups' do
+		erb :groups, :layout => :layout
+	end
+
+	get '/conferences' do
+		erb :conferences, :layout => :layout
+	end
 end
