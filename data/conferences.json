@@ -1,0 +1,94 @@
+[
+    {
+        "eventname": "Bar Camp Manchester",
+        "organiser": "Claire Dodd",
+        "email": "claire@barcampmanchester.co.uk",
+        "website": "http://barcampmanchester.co.uk/",
+        "advertised": "Twitter, Facebook, Meetup, Mailers to local tech business & universities, Word of Mouth"
+    },
+    {
+        "eventname": "Great Uni Hack",
+        "organiser": "Mihai Bujanca",
+        "email": "mihai@greatunihack.co.uk",
+        "where": "Manchester",
+        "when": "November. 1-2 times / year",
+        "website": "greatunihack.co.uk",
+        "advertised": "Twitter @GreatUniHack, facebook, word of mouth, Major League Hacking, mailing list"
+    },
+    {
+        "eventname": "HackManchester",
+        "organiser": "Gemma Cameron",
+        "email": "rubygem@hackmanchester.com",
+        "where": "MOSI",
+        "when": "Annually - last weekend October",
+        "website": "http://hackmanchester.com",
+        "advertised": "twitter and previous eventbrite attendees"
+    },
+    {
+        "eventname": "Ladies that UX MCR",
+        "organiser": "Lizzie Dyson",
+        "email": "Manchester@ladiesthatux.com",
+        "where": "Varies",
+        "when": "Annually",
+        "website": "http://www.ladiesthatux.com",
+        "advertised": "Tweet through out the month and word of mouth. We also send out emails to our attendees."
+    },
+    {
+        "eventname": "Leanconf",
+        "organiser": "Ben Aldred",
+        "email": "ben@leanconf.co.uk",
+        "when": "Annually - moving to earlier in the year Apr/May ",
+        "website": "leanconf.co.uk",
+        "advertised": "twitter, email list, linkedin, Lean Startup groups"
+    },
+    {
+        "eventname": "Manchester Girl Geeks BraCamp",
+        "organiser": "Katie Steckles",
+        "email": "manchestergirlgeeks@gmail.com",
+        "website": "http://www.manchestergirlgeeks.com",
+        "advertised": "Monthly newsletter, @mcrgirlgeeks and in the local community."
+    },
+    {
+        "eventname": "NUX Conference",
+        "organiser": "The NUX Manchester, Leeds & Newcastle teams",
+        "email": "group@nuxuk.org",
+        "where": "Manchester (Royal Northern College of Music)",
+        "when": "annually, usually around end of October/early November (next one is Oct 23rd)",
+        "website": "http://nuxconf.uk",
+        "advertised": "Twitter @nuxuk, Word of mouth, Mailchimp mailing list, Facebook"
+    },
+    {
+        "eventname": "PHPNW Annual Conference",
+        "organiser": "Jeremy Coates",
+        "email": "conference@phpnw.org.uk",
+        "where": "Manchester Conference Centre",
+        "when": "Annually - October",
+        "website": "http://conference.phpnw.org.uk/",
+        "advertised": "Website, Twitter @phpnw, Facebook, LinkedIn"
+    },
+    {
+        "eventname": "UKNOF",
+        "organiser": "UKNOF (Mike Hughes/Denesh Bhabuta)",
+        "email": "admin@uknof.org.uk",
+        "where": "Manchester Central",
+        "when": "Once per year in Manchester, two other events per year, one in London, one floating.",
+        "website": "uknof.org.uk",
+        "advertised": "twitter, word of mouth, website, facebook, mailing list, linkedin, etc."
+    },
+    {
+        "eventname": "UpFrontConf",
+        "organiser": "Simon Owen + others",
+        "email": "s1000wen@gmail.com",
+        "where": "Comedy Store Deansgate",
+        "when": "18th/19th May 2015",
+        "website": "upfrontconf.com",
+        "advertised": "twitter, word of month, Mcr Digital"
+    },
+    {
+        "eventname": "WordCamp Manchester",
+        "organiser": "Jenny Wong",
+        "email": "jenny@jwong.co.uk",
+        "website": "http://2014.manchester.wordcamp.org",
+        "advertised": "Via twitter, MWUG. "
+    }
+]
