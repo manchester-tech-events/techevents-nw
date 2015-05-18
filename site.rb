@@ -18,7 +18,7 @@ class App < Sinatra::Application
 		]
 
 		css :application, [
-			'css/*.css'
+			'css/**/*.*',
 		]
 
 		js_compression :jsmin
