@@ -1,0 +1,5 @@
+module Omniauth
+  module Authic
+    VERSION = "0.0.4"
+  end
+end
