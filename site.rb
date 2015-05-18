@@ -37,6 +37,10 @@ class App < Sinatra::Application
 	end
 
 	get '/' do
-		erb :index, :layout => :layout
+		redirect '/calendar'
+	end
+
+	get '/calendar' do
+		erb :calendar, :layout => :layout
 	end
 end
