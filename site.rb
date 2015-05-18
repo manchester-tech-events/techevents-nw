@@ -37,7 +37,6 @@ class App < Sinatra::Application
 	end
 
 	get '/' do
-		# erb :index, :layout => :snap_portal_layout
-		File.read('homepage.html')
+		erb :index, :layout => :layout
 	end
 end
