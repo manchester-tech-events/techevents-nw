@@ -1,4 +1,4 @@
-<table class="ui very basic table">
+<table class="ui table">
   <thead>
     <tr>
       <th>name</th>
@@ -10,10 +10,10 @@
   <tbody>
     <%events.each do |event|%>
       <tr>
-        <td><%=event["name"]%></td>
-        <td><%=event["where"]%></td>
-        <td><%=event["when"]%></td>
-        <td><a href='<%=event["website"]%>' target='_new'><%=event["website"]%></a></td>
+        <td><%=event["name"] || "&nbsp;"%></td>
+        <td><%=event["where"] || "&nbsp;"%></td>
+        <td><%=event["when"] || "&nbsp;"%></td>
+        <td><a href='<%=event["website"]%>' target='_new'><%=event["website"] || "&nbsp;"%></a></td>
       </tr>
     <%end%>
   </tbody>
