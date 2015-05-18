@@ -32,7 +32,6 @@ class App < Sinatra::Application
 	end
 
 	error do
-	  'Sorry there was a nasty error - ' + env['sinatra.error'].name
 	  erb :error, :layout => :error_layout
 	end
 
