@@ -14,7 +14,7 @@ html {
 body{
   font-family: 'Open Sans', sans-serif;
   margin: 0 10% 5% 10%;
-  background-color: rgba(255,0,0,0.1);
+  background-color: rgba(255,255,255,.5);
 }
 
 .m-b-reset{
@@ -32,6 +32,14 @@ body{
 .ui .message{
   padding-top: 30px !important;
   padding-bottom:  50px !important;
+}
+
+.ui.huge.message {
+  background-color: rgba(255,255,255,.1);
+}
+
+.ui.segment {
+    background-color: rgba(255,255,255,0.7);
 }
 
 .m-top-10{
