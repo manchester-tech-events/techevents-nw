@@ -12,8 +12,8 @@
     <%events.each do |event|%>
       <tr>
         <td><%=event["name"] || "&nbsp;"%></td>
-        <td><a href='<%=event["website"]%>' target='_new'><i class="world icon"></a></td>
-        <td><a href='http://twitter.com/<%=event["twitter"]%>' target='_new'><i class="blue twitter icon"></a></td>
+        <td><%unless event["website"].nil? %><a href='<%=event["website"]%>' target='_new'><i class="world icon"></a><%end%></td>
+        <td><%unless event["twitter"].nil? %><a href='http://twitter.com/<%=event["twitter"]%>' target='_new'><i class="blue twitter icon"></a><%end%></td>
         <td><%=event["where"] || "&nbsp;"%></td>
         <td><%=event["when"] || "&nbsp;"%></td>
       </tr>
