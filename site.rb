@@ -45,13 +45,13 @@ class App < Sinatra::Application
 
 	get '/groups' do
 		json = File.read('data/groups.json') 
-		groups = JSON.parse(json)  
-		erb :groups, :layout => :layout, :locals => {groups:groups}
+		events = JSON.parse(json)  
+		erb :event_list, :layout => :layout, :locals => {events:events}
 	end
 
 	get '/conferences' do
 		json = File.read('data/conferences.json') 
-		conferences = JSON.parse(json)  
-		erb :conferences, :layout => :layout, :locals => {conferences:conferences}
+		events = JSON.parse(json)  
+		erb :event_list, :layout => :layout, :locals => {events:events}
 	end
 end
