@@ -14,13 +14,7 @@ html {
 body{
   font-family: 'Open Sans', sans-serif;
   margin: 0 10% 5% 10%;
-  background-color: #fff;
-  -khtml-opacity:.90; 
-  -moz-opacity:.90; 
-  -ms-filter:"alpha(opacity=90)";
-  filter:alpha(opacity=90);
-  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.90);
-  opacity:.90; 
+  background-color: rgba(255,0,0,0.1);
 }
 
 .m-b-reset{
