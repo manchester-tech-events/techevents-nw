@@ -1,31 +1,20 @@
 <table class="ui celled table">
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Status</th>
-      <th>Notes</th>
+      <th>name</th>
+      <th>website</th>
+      <th>where</th>
+      <th>when</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Jamie</td>
-      <td>Approved</td>
-      <td>Requires call</td>
-    </tr>
-    <tr>
-      <td>John</td>
-      <td>Selected</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <td>Jamie</td>
-      <td>Approved</td>
-      <td>Requires call</td>
-    </tr>
-    <tr>
-      <td>Jill</td>
-      <td>Approved</td>
-      <td>None</td>
-    </tr>
+    <%groups.each do |group|%>
+      <tr>
+        <td><%=group["name"]%></td>
+        <td><a href='<%=group["website"]%>' target='_new'><%=group["website"]%></a></td>
+        <td><%=group["where"]%></td>
+        <td><%=group["when"]%></td>
+      </tr>
+    <%end%>
   </tbody>
 </table>

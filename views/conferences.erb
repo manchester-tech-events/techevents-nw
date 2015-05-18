@@ -1,31 +1,20 @@
 <table class="ui celled table">
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Status</th>
-      <th>Notes</th>
+      <th>name</th>
+      <th>where</th>
+      <th>when</th>
+      <th>website</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Jamie</td>
-      <td>Approved</td>
-      <td>Requires call</td>
-    </tr>
-    <tr>
-      <td>John</td>
-      <td>Selected</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <td>Jamie</td>
-      <td>Approved</td>
-      <td>Requires call</td>
-    </tr>
-    <tr>
-      <td>Jill</td>
-      <td>Approved</td>
-      <td>None</td>
-    </tr>
+    <%conferences.each do |conference|%>
+      <tr>
+        <td><%=conference["name"]%></td>
+        <td><%=conference["where"]%></td>
+        <td><%=conference["when"]%></td>
+        <td><a href='<%=conference["website"]%>' target='_new'><%=conference["website"]%></a></td>
+      </tr>
+    <%end%>
   </tbody>
 </table>
