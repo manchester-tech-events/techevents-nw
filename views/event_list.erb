@@ -2,18 +2,20 @@
   <thead>
     <tr>
       <th>name</th>
+      <th></th>
+      <th></th>
       <th>where</th>
       <th>when</th>
-      <th>website</th>
     </tr>
   </thead>
   <tbody>
     <%events.each do |event|%>
       <tr>
         <td><%=event["name"] || "&nbsp;"%></td>
+        <td><a href='<%=event["website"]%>' target='_new'><i class="world icon"></a></td>
+        <td><a href='http://twitter.com/<%=event["twitter"]%>' target='_new'><i class="blue twitter icon"></a></td>
         <td><%=event["where"] || "&nbsp;"%></td>
         <td><%=event["when"] || "&nbsp;"%></td>
-        <td><a href='<%=event["website"]%>' target='_new'><%=event["website"] || "&nbsp;"%></a></td>
       </tr>
     <%end%>
   </tbody>
