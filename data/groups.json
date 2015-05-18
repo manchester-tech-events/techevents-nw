@@ -263,15 +263,6 @@
         "website": "http://opendatamanchester.org.uk/"
     },
     {
-        "name": "PHPNW Annual Conference",
-        "organiser": "Jeremy Coates",
-        "email": "conference@phpnw.org.uk",
-        "where": "Manchester Conference Centre",
-        "when": "Annually - October",
-        "website": "http://conference.phpnw.org.uk/",
-        "advertised": "Website, Twitter @phpnw, Facebook, LinkedIn"
-    },
-    {
         "name": "PHPNW Monthly Meeting",
         "organiser": "Jeremy Coates",
         "email": "jeremy@phpnw.org.uk ",
