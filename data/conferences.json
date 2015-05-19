@@ -1,6 +1,7 @@
 [
     {
         "name": "Bar Camp Manchester",
+        "description": "Unorganised conference.",
         "organiser": "Claire Dodd",
         "email": "claire@barcampmanchester.co.uk",
         "when": "Annually",
@@ -10,6 +11,7 @@
     },
     {
         "name": "Great Uni Hack",
+        "description": "Student Hack-a-thon",
         "organiser": "Mihai Bujanca",
         "email": "mihai@greatunihack.co.uk",
         "where": "Manchester",
@@ -20,6 +22,7 @@
     },
     {
         "name": "HackManchester",
+        "description": "24 hour coding competition",
         "organiser": "Gemma Cameron",
         "email": "rubygem@hackmanchester.com",
         "where": "MOSI",
@@ -29,16 +32,8 @@
         "advertised": "twitter and previous eventbrite attendees"
     },
     {
-        "name": "Ladies that UX MCR",
-        "organiser": "Lizzie Dyson",
-        "email": "Manchester@ladiesthatux.com",
-        "where": "Varies\n",
-        "when": "Annually",
-        "website": "http://www.ladiesthatux.com",
-        "advertised": "Tweet through out the month and word of mouth. We also send out emails to our attendees."
-    },
-    {
         "name": "Leanconf",
+        "description": "Conference for those interested in or practising Lean as in Eric Ries' book the Lean Startup",
         "organiser": "Ben Aldred",
         "email": "ben@leanconf.co.uk",
         "where": "Manchester city centre",
@@ -49,6 +44,7 @@
     },
     {
         "name": "Manchester Girl Geeks BraCamp",
+        "description": "Unconference for girls and women interested in STEM",
         "organiser": "Katie Steckles",
         "email": "manchestergirlgeeks@gmail.com",
         "twitter": "@mcrgirlgeeks",
@@ -57,6 +53,7 @@
     },
     {
         "name": "NUX Conference",
+        "description": "Annual conference for Norther User Experience designers",
         "organiser": "The NUX Manchester, Leeds & Newcastle teams",
         "email": "group@nuxuk.org",
         "where": "Manchester (Royal Northern College of Music)",
@@ -67,6 +64,7 @@
     },
     {
         "name": "PHPNW Annual Conference",
+        "description": "Annual conference for PHP develppers",
         "organiser": "Jeremy Coates",
         "email": "conference@phpnw.org.uk",
         "where": "Manchester Conference Centre",
@@ -77,6 +75,7 @@
     },
     {
         "name": "UKNOF",
+        "description": "Free community for British ISPs and Computer Network Operators",
         "organiser": "UKNOF (Mike Hughes/Denesh Bhabuta)",
         "email": "admin@uknof.org.uk",
         "where": "Manchester Central",
@@ -87,6 +86,7 @@
     },
     {
         "name": "UpFrontConf",
+        "description": "A FRONT-END CONFERENCE FOR ANYONE WHO MAKES FOR THE WEB",
         "organiser": "Simon Owen + others",
         "email": "s1000wen@gmail.com",
         "where": "Comedy Store Deansgate",
@@ -94,13 +94,5 @@
         "twitter": "@upfrontconf",
         "website": "upfrontconf.com",
         "advertised": "twitter, word of month, Mcr Digital"
-    },
-    {
-        "name": "WordCamp Manchester",
-        "organiser": "Jenny Wong",
-        "email": "jenny@jwong.co.uk",
-        "twitter": "@wcmcr",
-        "website": "https://manchester.wordcamp.org",
-        "advertised": "Via twitter, MWUG. "
     }
 ]

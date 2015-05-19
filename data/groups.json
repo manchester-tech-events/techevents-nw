@@ -1,6 +1,7 @@
 [
     {
         "name": "CoderDojo",
+        "description": "Manchester CoderDojo is a volunteer-led community group for young people learning to code and make things.",
         "organiser": "Steven Flowers",
         "where": "Sharp Project",
         "when": "one Sunday a month",
@@ -8,17 +9,11 @@
         "website": "http://mcrcoderdojo.org.uk/"
     },
     {
-        "name": "Currybeer",
-        "organiser": "Paul Waring",
-        "email": "paul@xk7.net",
-        "when": "1st and 3rd Friday of the month",
-        "website": "http://www.currybeer.com",
-        "advertised": "Mailing list, Twitter, IRC"
-    },
-    {
         "name": "DevOps Manchester",
+        "description": "Group for people interested in, or practicing Devops.",
         "organiser": "James Heggs\nMark Crossfield",
         "email": "contact@devopsmanchester.co.uk",
+        "where": "Varies",
         "when": "Every 6 weeks roughly ",
         "twitter": "@devopsmanc",
         "website": "http://www.devopsmanchester.co.uk",
@@ -26,6 +21,7 @@
     },
     {
         "name": "DigiCurry",
+        "description": "Social at various curry restuarants",
         "organiser": "Barry Briggs & Dan Donald",
         "email": "info@digicurry.co.uk",
         "where": "Indian restaurants around Manchester",
@@ -35,6 +31,7 @@
     },
     {
         "name": "Digital Edge",
+        "description": "For those working in digital in East Cheshire. Talks and workshops.",
         "organiser": "Chris Garrett",
         "email": "chris+digitaledge@abstraktion.co.uk",
         "when": "Monthly, the last Tuesday of the month",
@@ -44,6 +41,7 @@
     },
     {
         "name": "Django Northwest",
+        "description": "For Django developers. All abilities welcome.",
         "organiser": "Jon Atkinson",
         "email": "jon@wearefarm.com",
         "website": "http://djangonorthwest.co.uk/",
@@ -51,21 +49,26 @@
     },
     {
         "name": "Drinkabout Manchester",
+        "description": "Social every friday evening. Ideal for networking and meeting people fromt he Tech Community. Often sponsored.",
         "organiser": "Gabi Iskandar",
         "email": "gabiskandar@gmail.com",
+        "twitter": "@DrinkaboutMCR",
         "website": "http://3-beards.com/silicondrinkabout/manchester",
         "advertised": "Twitter\nFacebook Startup Group"
     },
     {
-        "name": "Drupal Sprints / NWDUG",
+        "name": "Drupal Sprints NW / NWDUG",
+        "description": "Drupal user group who meet on the first Wednesday of every month in MadLab, in Manchester.",
         "organiser": "Philip Norton",
         "email": "philipnorton42@gmail.com",
-        "where": "Madlab",
+        "where": "MadLab",
+        "twitter": "@nwdug",
         "website": "http://www.nwdrupal.org.uk",
         "advertised": "Combination of http://www.meetup.com/nwdrupal/ our own website, Twitter, and Facebook (not including word of mouth). We meet up on the first Wednesday of each month in Madlab so it's pretty easy to remember.\nThe Drupal Sprints are organised in the same way with the event posted on multiple places.\nThere was no DrupalCampNW this year, but in previous years this got a lot more attention in terms of posting it in as many places as possible."
     },
     {
         "name": "GDG Manchester",
+        "description": "Google Developer's Group",
         "organiser": "Ben Higginbottom",
         "email": "ben.higginbottom@gmail.com",
         "where": "Spaceport/Escalator",
@@ -75,6 +78,7 @@
     },
     {
         "name": "Geek Walks",
+        "description": "Geek Walks take place approximately once a month on a Saturday, and involve travelling to somewhere within an hour's direct train from Manchester, going for a stroll and ending up in a pub for lunch. Everyone is welcome and you don't have to book",
         "organiser": "Paul Waring",
         "email": "paul@xk7.net",
         "when": "One Saturday each month (varies)",
@@ -83,33 +87,51 @@
     },
     {
         "name": "HackerNest",
+        "description": "HackerNest is an international nonprofit focused on building supportive “Silicon Valley”-type tech communities everywhere ",
         "organiser": "Jenni Wardell",
         "email": "jen@hackernest.com",
         "where": "Manchester",
         "when": "Monthly meetings, end of the month.",
+        "twitter": "@hackernest",
         "website": "http://hackernest.com",
         "advertised": "via Meetup, twitter, linkedin, facebook, word of mouth"
     },
     {
         "name": "Ladies that UX MCR",
+        "description": "Fancy meeting other women for a good old natter about UX and life in general? Then Ladies that UX is for you. Not got UX in your job title? No problem. If you’re inquisitive, enthusiastic and interested in making the world a better place for users, you’re one of us.",
         "organiser": "Lizzie Dyson",
         "email": "Manchester@ladiesthatux.com",
         "where": "Varies\n",
         "when": "Third Wednesday",
+        "twitter": "@ladiesthatuxmcr",
         "website": "http://www.ladiesthatux.com",
         "advertised": "Tweet through out the month and word of mouth. We also send out emails to our attendees."
     },
     {
         "name": "Ladies who code - Manchester",
+        "description": "monthly meetup to hear talks from leaders in the field and hack whilst developing our code-fu in the process",
         "organiser": "Tanvi Sethi",
         "email": "sethi.tanvi@gmail.com",
         "where": "Thoughtworks, City Tower, Manchester",
-        "when": "Monthly. Roughly - Last week Mon/Tue/Wed (Next one 26th May)",
+        "when": "Monthly. Roughly - Last week Mon/Tue/Wed",
+        "twitter": "@ladieswhocode",
         "website": "http://www.meetup.com/Ladies-Who-Code-Manchester/",
         "advertised": "Meetup & Twitter "
     },
     {
+        "name": "Lambda Lounge",
+        "description": "Language Agnostic. Talks about, and to popularise, new ways of thinking about computation.  Frequent topics include, functional programming, type systems, programming language design and aspects of computer science.",
+        "organiser": "Rick Moynihan ",
+        "email": "rick.moynihan@gmail.com",
+        "where": "MadLab",
+        "when": "3rd Monday",
+        "twitter": "#lambdalounge",
+        "website": "http://www.lambdalounge.org.uk/",
+        "advertised": "Google group// MadLab website// Twitter "
+    },
+    {
         "name": "Lean Agile Manchester",
+        "description": "Lean Agile Manchester is intended to be the home of Lean (Kanban), Agile community in Manchester and surrounding areas",
         "organiser": "Ian Carroll",
         "email": "ian@solutioneers.co.uk",
         "where": "MadLab",
@@ -119,6 +141,7 @@
     },
     {
         "name": "Manchester Codejo",
+        "description": "A place to practice and perfect your coding skills by performing katas",
         "organiser": "Iain Mitchell",
         "email": "iainjmitchell@gmail.com",
         "website": "http://manchester-codejo.com",
@@ -126,6 +149,7 @@
     },
     {
         "name": "Manchester Girl Geeks",
+        "description": "not-for-profit group which organises networking events, talks and hands-on workshops for women and girls with an interest in Science, Technology, Engineering and Mathematics (STEM)",
         "organiser": "Katie Steckles",
         "email": "manchestergirlgeeks@gmail.com",
         "twitter": "@mcrgirlgeeks",
@@ -134,53 +158,37 @@
     },
     {
         "name": "Manchester Go",
-        "organiser": "Will",
+        "description": "Meetup for people who know, use, or are just interested in starting to program in Go, the programming language designed and built at Google.\nAll abilities are welcome.",
+        "organiser": "Will Jessop",
+        "twitter": "@ManGo_users",
         "website": "http://mango.computer",
         "advertised": "Website, twitter and mailing list"
     },
     {
         "name": "Manchester Java Community",
+        "description": "Meetup for Java developers. All abilities welcome.",
         "organiser": "Alison McGreavy, Debbie Roycroft, Roberto Nerici, Elizabeth Chesters",
+        "email": "mcrjava@gmail.com",
         "where": "Varies",
         "when": "Varies, approximately once a month",
+        "twitter": "@mcrjava",
         "website": "http://www.meetup.com/ManchesterUK-Java-Community/",
         "advertised": "Via meetup.com and through twitter @mcrjava and linkedin group"
     },
     {
-        "name": "Manchester Raspberry Jam",
-        "organiser": "Jack",
-        "email": "jack@slightlyintelligent.com",
-        "twitter": "@mcrraspjam",
-        "website": "http://www.mcrraspjam.org.uk",
-        "advertised": "Twitter/mailing list "
-    },
-    {
-        "name": "Manchester Tech Book Club",
-        "organiser": "James Jeffries",
-        "email": "jamesjeffries1@gmail.com",
-        "where": "TBC",
-        "when": "TBC",
-        "website": "https://groups.google.com/forum/#!forum/manchester-tech-book-club",
-        "advertised": "Twitter and Google Groups"
-    },
-    {
         "name": "Manchester Tech Nights",
+        "description": "Manchester Tech Nights is a meetup aimed at Manchester's technology community, either the people who are making Manchester's tech scene what it is, or just those who are interested and want to keep up-to-date. We want to find out what's going on across the north west, regardless of language. The night kicks off with a headline talk, followed by a series of shorter lightning talks and then an informal chat between attendees.",
         "organiser": "Chris Northwood",
         "email": "cnorthwood@gmail.com",
         "where": "Spaceport X",
         "when": "Every other month (irregular) ",
+        "twitter": "@mcrtechnights",
         "website": "http://manchestertechnights.org",
         "advertised": "Twitter, event calendars, word of mouth, currently trying a mailing list"
     },
     {
-        "name": "Manchester WordPress User Group (MWUG)",
-        "organiser": "Mike Little & Saz",
-        "where": "Madlab",
-        "when": "3rd Wednesday of the Month",
-        "website": "http://mwug.info/"
-    },
-    {
         "name": "MancJS",
+        "description": "Meetup for Javascript developers. Talks and workshops.",
         "organiser": "Martin Rue",
         "email": "mancjs@martinrue.com",
         "where": "Spaceport X",
@@ -191,6 +199,7 @@
     },
     {
         "name": "McrFRED",
+        "description": "Front end developers meetup",
         "organiser": "Simon Owen",
         "email": "s1000wen@gmail.com",
         "where": "Spaceport X",
@@ -201,6 +210,7 @@
     },
     {
         "name": "North West Tester Gathering",
+        "description": "Meetup for testers and QA's",
         "organiser": "Claire",
         "email": "claire@squarejazzsolutions.com",
         "when": "Every 3rd Tuesday of the month",
@@ -209,9 +219,10 @@
     },
     {
         "name": "NSManchester",
+        "description": "iPhone and Mac developer monthly meetup in Manchester, UK.",
         "organiser": "Ross Butler",
         "email": "ross.butler@bbc.co.uk",
-        "where": "Manchester",
+        "where": "MadLab",
         "when": "First Monday of each month.",
         "twitter": "@nsmanchester",
         "website": "twitter.com/nsmanchester",
@@ -219,6 +230,7 @@
     },
     {
         "name": "NUX Leeds",
+        "description": "UX Designers in Leeds",
         "organiser": "Kimberley Bottomley, Lucy Buykx, Ian Franklin, Rob Whiting, Pete McClory (and Barry Briggs)",
         "email": "leeds@nuxuk.org",
         "where": "Leeds (Simple Usability offices)",
@@ -229,9 +241,10 @@
     },
     {
         "name": "NUX Manchester",
+        "description": "UX Designers in Manchester",
         "organiser": "Barry Briggs, Rick Threlfall, Chris Bush, Chris Collingridge, Louis Georgiou",
         "email": "manchester@nuxuk.org",
-        "where": "Manchester City Centre",
+        "where": "Manchester city centre",
         "when": "bi-monthly meetings. first monday of the month ",
         "twitter": "@nuxuk",
         "website": "http://nuxuk.org/",
@@ -239,21 +252,18 @@
     },
     {
         "name": "NWRUG",
+        "description": "Ruby developers meetup. All abilities welcome",
         "organiser": "Ben Aldred",
         "email": "benaldred@gmail.com",
+        "where": "MadLab",
+        "when": "Third Thursday of the month",
         "twitter": "@nwrug",
         "website": "http://nwrug.org",
         "advertised": "Website, twitter and mailing list"
     },
     {
-        "name": "Open Data Manchester",
-        "where": "variety of venues around Manchester and beyond",
-        "when": "last Tuesday of the month",
-        "twitter": "@opendatamcr",
-        "website": "http://opendatamanchester.org.uk/"
-    },
-    {
         "name": "PHPNW Monthly Meeting",
+        "description": "for PHP developers",
         "organiser": "Jeremy Coates",
         "email": "jeremy@phpnw.org.uk ",
         "where": "Kosmonaut",
@@ -264,24 +274,30 @@
     },
     {
         "name": "SheSays",
+        "description": "helps women in digital & creative industries further their careers through meet-ups, mentoring and inspiring events.",
         "organiser": "Gabi Iskandar\nVim",
         "email": "gabiskandar@gmail.com",
+        "where": "SpaceportX",
+        "when": "Monthly",
         "twitter": "@shesaysmcr"
     },
     {
         "name": "TwitFaced",
+        "description": "Connecting Great Social Business",
         "organiser": "Simon Calderbank / Michael Di Paola",
         "email": "simon@big-knows.co.uk / michael@studionorth.co.uk",
         "where": "Manchester",
         "when": "3-4 times a year. Always on a Friday evening.",
+        "twitter": "@twitfacedevents",
         "website": "www.twitfaced.co.uk",
         "advertised": "twitter, word of mouth, brand ambassadors/sponsors"
     },
     {
         "name": "XPManchester",
+        "description": "Xp Manchester is a language agnostic software development user group with the prime directive of making software developers work smarter.",
         "organiser": "Mark Kirschstein",
         "email": "markkirschstein@gmail.com",
-        "where": "Madlab",
+        "where": "MadLab",
         "when": "Second Thursday of the month",
         "twitter": "@xpmanchester",
         "website": "xpmanchester.wordpress.com",
