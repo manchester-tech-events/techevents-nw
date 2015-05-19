@@ -273,13 +273,24 @@
         "advertised": "Website, Twitter @phpnw, Facebook, LinkedIn"
     },
     {
+        "name": "Python NW",
+        "description": "for Python developers",
+        "organiser": "Fiona Burrows",
+        "email": "fiona.burrows@arcticshores.com",
+        "where": "SpaceportX",
+        "when": "Third Thursday of the month",
+        "twitter": "@pythonnw\n",
+        "website": "http://pynw.org.uk",
+        "advertised": "Website (down lol), Twitter, Google group"
+    },
+    {
         "name": "SheSays",
         "description": "helps women in digital & creative industries further their careers through meet-ups, mentoring and inspiring events.",
         "organiser": "Gabi Iskandar\nVim",
         "email": "gabiskandar@gmail.com",
         "where": "SpaceportX",
         "when": "Monthly",
-        "twitter": "@shesaysmcr"
+        "twitter": "@shesaysmcr",
     },
     {
         "name": "TwitFaced",
