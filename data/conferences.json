@@ -94,5 +94,16 @@
         "twitter": "@upfrontconf",
         "website": "upfrontconf.com",
         "advertised": "twitter, word of month, Mcr Digital"
+    },
+    {
+        "name": "Dynamic Languages Conference",
+        "description": "The DLC is a cross-language event aimed at Open Source Dynamic \nLanguages, we hope to bring together all the languages in an open forum \nto discuss and present the manner in which these languages approach and \nsolve tasks at the cutting edge of development technology.",
+        "organiser": "Ian Norton & FLOSS UK",
+        "email": "council@ukuug.org",
+        "where": "Studio, Manchester",
+        "when": "20th June 2015",
+        "twitter": "@flossuk",
+        "website": "http://www.dynamiclanguages.co.uk/",
+        "advertised": "twitter, word of mouth, website, facebook, mailing lists, Linux press"
     }
 ]
