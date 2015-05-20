@@ -1,4 +1,4 @@
-/home/developer/.rvm/rubies/ruby-2.2.0/bin/ruby -r ./siteconf20150518-9420-1w07o4y.rb extconf.rb 
+/home/developer/.rvm/rubies/ruby-2.2.0/bin/ruby -r ./siteconf20150520-21413-1kl6d6n.rb extconf.rb 
 checking for main() in -lpthread... yes
 creating Makefile
 
@@ -36,4 +36,4 @@ compiling gc.cc
 linking shared-object v8/init.so
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 init.so ./.gem.20150518-9420-5l4lnt/v8
+/usr/bin/install -c -m 0755 init.so ./.gem.20150520-21413-u18kpb/v8

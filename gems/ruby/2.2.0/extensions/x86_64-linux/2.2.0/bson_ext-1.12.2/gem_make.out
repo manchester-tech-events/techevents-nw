@@ -1,0 +1,17 @@
+/home/developer/.rvm/rubies/ruby-2.2.0/bin/ruby -r ./siteconf20150520-21413-ccfxqr.rb extconf.rb 
+checking for asprintf()... yes
+checking for ruby/st.h... yes
+checking for ruby/regex.h... yes
+checking for ruby/encoding.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling encoding_helpers.c
+compiling cbson.c
+compiling bson_buffer.c
+linking shared-object bson_ext/cbson.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cbson.so ./.gem.20150520-21413-6quszk/bson_ext

@@ -9,6 +9,16 @@
         "website": "http://mcrcoderdojo.org.uk/"
     },
     {
+        "name": "CurryBeer",
+        "description": "The traditional Currybeer events are held on the first Friday of each month, unless that clashes with a public holiday (e.g. New Year's Day). Alternative cuisines are usually held on the third Friday of the month, chosen from a variety of venues.",
+        "organiser": "Paul Waring",
+        "email": "paul@xk7.net",
+        "where": "Various restaurants",
+        "when": "1st and 3rd Friday of the month",
+        "website": "http://www.currybeer.com",
+        "advertised": "Mailing list, Twitter, IRC"
+    },
+    {
         "name": "DevOps Manchester",
         "description": "Group for people interested in, or practicing Devops.",
         "organiser": "James Heggs\nMark Crossfield",
@@ -160,6 +170,9 @@
         "name": "Manchester Go",
         "description": "Meetup for people who know, use, or are just interested in starting to program in Go, the programming language designed and built at Google.\nAll abilities are welcome.",
         "organiser": "Will Jessop",
+        "email": "will@willj.net",
+        "where": "SpacePort, MadLab or a pub",
+        "when": "Second Wednesday of every month",
         "twitter": "@ManGo_users",
         "website": "http://mango.computer",
         "advertised": "Website, twitter and mailing list"

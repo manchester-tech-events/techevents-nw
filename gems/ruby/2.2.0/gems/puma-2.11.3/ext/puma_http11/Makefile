@@ -31,8 +31,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20150520-21413-u18kpb
-sitelibdir = $(DESTDIR)./.gem.20150520-21413-u18kpb
+sitearchdir = $(DESTDIR)./.gem.20150520-21413-66xyig
+sitelibdir = $(DESTDIR)./.gem.20150520-21413-66xyig
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -77,18 +77,18 @@ RUBY_EXTCONF_H =
 cflags   =  $(optflags) $(debugflags) $(warnflags)
 optflags = -O3 -fno-fast-math
 debugflags = -ggdb3
-warnflags = -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings   -Wdeprecated-declarations -Wno-packed-bitfield-compat
+warnflags = -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat
 CCDLFLAGS = -fPIC
 CFLAGS   = $(CCDLFLAGS) $(cflags)  -fPIC $(ARCH_FLAG)
-INCFLAGS = -I. -I/home/developer/workspace/techevents-nw/gems/ruby/2.2.0/gems/libv8-3.16.14.7-x86_64-linux/vendor/v8/include -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
+INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
-CPPFLAGS =   $(DEFS) $(cppflags) -Wall -g -rdynamic
+CPPFLAGS =   $(DEFS) $(cppflags)
 CXXFLAGS = $(CCDLFLAGS) $(cxxflags) $(ARCH_FLAG)
-ldflags  = /home/developer/workspace/techevents-nw/gems/ruby/2.2.0/gems/libv8-3.16.14.7-x86_64-linux/vendor/v8/out/x64.release/obj.target/tools/gyp/libv8_base.a /home/developer/workspace/techevents-nw/gems/ruby/2.2.0/gems/libv8-3.16.14.7-x86_64-linux/vendor/v8/out/x64.release/obj.target/tools/gyp/libv8_snapshot.a -L. -fstack-protector -rdynamic -Wl,-export-dynamic
+ldflags  = -L. -fstack-protector -rdynamic -Wl,-export-dynamic
 dldflags =  
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)
-LDSHARED = $(CXX) -shared
+LDSHARED = $(CC) -shared
 LDSHAREDXX = $(CXX) -shared
 AR = ar
 EXEEXT = 
@@ -131,15 +131,15 @@ DISTCLEANDIRS =
 
 extout = 
 extout_prefix = 
-target_prefix = /v8
+target_prefix = /puma
 LOCAL_LIBS = 
-LIBS = $(LIBRUBYARG_SHARED) -lpthread  -lpthread -ldl -lcrypt -lm   -lc
-ORIG_SRCS = template.cc heap.cc v8.cc date.cc primitive.cc backref.cc constants.cc function.cc signature.cc handles.cc string.cc invocation.cc exception.cc trycatch.cc object.cc message.cc value.cc stack.cc array.cc rr.cc script.cc init.cc external.cc context.cc locker.cc accessor.cc constraints.cc gc.cc
+LIBS = $(LIBRUBYARG_SHARED) -lssl -lcrypto  -lpthread -ldl -lcrypt -lm   -lc
+ORIG_SRCS = io_buffer.c puma_http11.c mini_ssl.c http11_parser.c
 SRCS = $(ORIG_SRCS) 
-OBJS = template.o heap.o v8.o date.o primitive.o backref.o constants.o function.o signature.o handles.o string.o invocation.o exception.o trycatch.o object.o message.o value.o stack.o array.o rr.o script.o init.o external.o context.o locker.o accessor.o constraints.o gc.o
-HDRS = $(srcdir)/rr.h
-TARGET = init
-TARGET_NAME = init
+OBJS = io_buffer.o puma_http11.o mini_ssl.o http11_parser.o
+HDRS = $(srcdir)/ext_help.h $(srcdir)/http11_parser.h
+TARGET = puma_http11
+TARGET_NAME = puma_http11
 TARGET_ENTRY = Init_$(TARGET_NAME)
 DLLIB = $(TARGET).so
 EXTSTATIC = 
@@ -181,7 +181,7 @@ distclean: clean distclean-so distclean-static distclean-rb-default distclean-rb
 realclean: distclean
 install: install-so install-rb
 
-install-so: $(DLLIB) $(TIMESTAMP_DIR)/.RUBYARCHDIR.-.v8.time
+install-so: $(DLLIB) $(TIMESTAMP_DIR)/.RUBYARCHDIR.-.puma.time
 	$(INSTALL_PROG) $(DLLIB) $(RUBYARCHDIR)
 clean-static::
 	-$(Q)$(RM) $(STATIC_LIB)
@@ -191,7 +191,7 @@ pre-install-rb: Makefile
 pre-install-rb-default: Makefile
 pre-install-rb-default:
 	@$(NULLCMD)
-$(TIMESTAMP_DIR)/.RUBYARCHDIR.-.v8.time:
+$(TIMESTAMP_DIR)/.RUBYARCHDIR.-.puma.time:
 	$(Q) $(MAKEDIRS) $(@D) $(RUBYARCHDIR)
 	$(Q) $(TOUCH) $@
 
@@ -250,9 +250,9 @@ site-install-rb: install-rb
 	$(Q) $(CC) $(INCFLAGS) $(CPPFLAGS) $(CFLAGS) $(COUTFLAG)$@ -S $<
 
 $(DLLIB): $(OBJS) Makefile
-	$(ECHO) linking shared-object v8/$(DLLIB)
+	$(ECHO) linking shared-object puma/$(DLLIB)
 	-$(Q)$(RM) $(@)
-	$(Q) $(LDSHAREDXX) -o $@ $(OBJS) $(LIBPATH) $(DLDFLAGS) $(LOCAL_LIBS) $(LIBS)
+	$(Q) $(LDSHARED) -o $@ $(OBJS) $(LIBPATH) $(DLDFLAGS) $(LOCAL_LIBS) $(LIBS)
 
 
 
