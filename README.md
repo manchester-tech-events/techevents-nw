@@ -9,5 +9,5 @@
  - fork this git repo
  - edit the circle.yml to be your heroku app
  - get a circle ci account linked to your github
- - follow your new forked project
+ - follow your new forked project in circle
  - 
