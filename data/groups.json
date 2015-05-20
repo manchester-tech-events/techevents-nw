@@ -50,6 +50,17 @@
         "advertised": "Meetup and Twitter. We've had a new website in the pipeline for far too long..."
     },
     {
+        "name": "Digital Heroes",
+        "description": "Digital social involving fancy dress and shenanigans",
+        "organiser": "Scotty Vernon",
+        "email": "scotty@wildflame.co.uk",
+        "where": "Hold Fast Bar, NQ",
+        "when": "Annually in current format",
+        "twitter": "@digitalheroesuk",
+        "website": "http://digitalheroes.uk",
+        "advertised": "website, twitter @digitalheroesuk, social"
+    },
+    {
         "name": "Django Northwest",
         "description": "For Django developers. All abilities welcome.",
         "organiser": "Jon Atkinson",
@@ -75,6 +86,17 @@
         "twitter": "@nwdug",
         "website": "http://www.nwdrupal.org.uk",
         "advertised": "Combination of http://www.meetup.com/nwdrupal/ our own website, Twitter, and Facebook (not including word of mouth). We meet up on the first Wednesday of each month in Madlab so it's pretty easy to remember.\nThe Drupal Sprints are organised in the same way with the event posted on multiple places.\nThere was no DrupalCampNW this year, but in previous years this got a lot more attention in terms of posting it in as many places as possible."
+    },
+    {
+        "name": "FLOSS UK",
+        "description": "FLOSS UK, the UK open source advocacy group",
+        "organiser": "Ian Norton",
+        "email": "council@ukuug.org",
+        "where": "Location varies",
+        "when": "Annual Spring conference somewhere in the UK",
+        "twitter": "@flossuk",
+        "website": "http://www.flossuk.org/",
+        "advertised": "Facebook, Twitter, Website, Newsletter, Linux print media"
     },
     {
         "name": "GDG Manchester",
@@ -138,6 +160,17 @@
         "twitter": "#lambdalounge",
         "website": "http://www.lambdalounge.org.uk/",
         "advertised": "Google group// MadLab website// Twitter "
+    },
+    {
+        "name": "Lancaster And Morecambe Makers (LAMM)",
+        "description": "Central Lancaster hackspace\n",
+        "organiser": "Ian Norton",
+        "email": "i.d.norton@gmail.com",
+        "where": "LAMM Space\n",
+        "when": "Every Wednesday 18:00 to 21:00\n",
+        "twitter": "@lammspace",
+        "website": "http://lamm.hackspace.org.uk/",
+        "advertised": "Website, twitter, facebook"
     },
     {
         "name": "Lean Agile Manchester",
@@ -240,17 +273,6 @@
         "twitter": "@nsmanchester",
         "website": "twitter.com/nsmanchester",
         "advertised": "Twitter, Meetup.com, Eventbrite, Madlab site, Facebook"
-    },
-    {
-        "name": "NUX Leeds",
-        "description": "UX Designers in Leeds",
-        "organiser": "Kimberley Bottomley, Lucy Buykx, Ian Franklin, Rob Whiting, Pete McClory (and Barry Briggs)",
-        "email": "leeds@nuxuk.org",
-        "where": "Leeds (Simple Usability offices)",
-        "when": "bi-monthly meetings. last thursday of the month, ",
-        "twitter": "@nuxuk",
-        "website": "http://nuxuk.org/",
-        "advertised": "Twitter @nuxuk, Word of mouth, Mailchimp mailing list, Facebook"
     },
     {
         "name": "NUX Manchester",
