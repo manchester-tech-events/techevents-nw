@@ -1,12 +1,5 @@
 <table class="ui pink striped table">
   <thead>
-    <tr>
-      <th>name</th>
-      <th></th>
-      <th></th>
-      <th>where</th>
-      <th>when</th>
-    </tr>
   </thead>
   <tbody>
     <%events.each do |event|%>
@@ -14,8 +7,7 @@
         <td><%=event["name"] || "&nbsp;"%></td>
         <td><%unless event["website"].nil? %><a href='<%=event["website"]%>' target='_new'><i class="world icon"></a><%end%></td>
         <td><%unless event["twitter"].nil? %><a href='http://twitter.com/<%=event["twitter"]%>' target='_new'><i class="blue twitter icon"></a><%end%></td>
-        <td><%=event["where"] || "&nbsp;"%></td>
-        <td><%=event["when"] || "&nbsp;"%></td>
+        <td><%=event["description"] || "&nbsp;"%></td>
       </tr>
     <%end%>
   </tbody>
