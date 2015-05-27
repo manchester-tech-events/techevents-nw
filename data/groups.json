@@ -69,6 +69,17 @@
         "advertised": "Twitter. Twitter. Twitter"
     },
     {
+        "name": "Dribbble Manchester",
+        "description": "Meetup for creatives - give me a shout if you need an invite",
+        "organiser": "Mark Wheeler",
+        "email": "submission@pixelcode.co.uk",
+        "where": "Hello House",
+        "when": "Every Month",
+        "twitter": "@dribbblemcr",
+        "website": "http://pixelcodeuk.github.io/dribbblemcr/",
+        "advertised": "Twitter, Eventbrite"
+    },
+    {
         "name": "Drinkabout Manchester",
         "description": "Social every friday evening. Ideal for networking and meeting people fromt he Tech Community. Often sponsored.",
         "organiser": "Gabi Iskandar",
@@ -338,6 +349,17 @@
         "twitter": "@twitfacedevents",
         "website": "www.twitfaced.co.uk",
         "advertised": "twitter, word of mouth, brand ambassadors/sponsors"
+    },
+    {
+        "name": "WordCamp Manchester",
+        "description": "The local WordPress annual gathering spanning everything from our bloggers/ content peopel to our sys admin people and everyone inbetween. All welcomed.",
+        "organiser": "Clair Worthington / Jenny Wong / Mike Little",
+        "email": "manchester@wordcamp.org",
+        "where": "Man Met Uni",
+        "when": "10th October 2015",
+        "twitter": "@wcmcr",
+        "website": "manchester.wordcamp.org",
+        "advertised": "twitter, MWUG user group, WordPress notices. "
     },
     {
         "name": "XPManchester",
