@@ -293,7 +293,9 @@
         "description": "Meetup for testers and QA's",
         "organiser": "Claire",
         "email": "claire@squarejazzsolutions.com",
+        "where": "Varies",
         "when": "Every 3rd Tuesday of the month",
+        "twitter": "@McrTesterGather",
         "website": "http://www.meetup.com/North-West-Tester-Gathering/",
         "advertised": "Twitter\nMeet up group"
     },
