@@ -28,7 +28,7 @@
         "where": "Manchester",
         "when": "November. 1-2 times / year",
         "twitter": "@GreatUniHack",
-        "website": "greatunihack.co.uk",
+        "website": "http://greatunihack.co.uk",
         "advertised": "Twitter @GreatUniHack, facebook, word of mouth, Major League Hacking, mailing list"
     },
     {
@@ -50,7 +50,7 @@
         "where": "Manchester city centre",
         "when": "Annually - moving to earlier in the year Apr/May ",
         "twitter": "@leanconf",
-        "website": "leanconf.co.uk",
+        "website": "http://leanconf.co.uk",
         "advertised": "twitter, email list, linkedin, Lean Startup groups"
     },
     {
@@ -92,7 +92,7 @@
         "where": "Manchester Central",
         "when": "Once per year in Manchester, two other events per year, one in London, one floating.",
         "twitter": "@uknof",
-        "website": "uknof.org.uk",
+        "website": "http://uknof.org.uk",
         "advertised": "twitter, word of mouth, website, facebook, mailing list, linkedin, etc."
     },
     {
@@ -103,7 +103,7 @@
         "where": "Comedy Store Deansgate",
         "when": "18th/19th May 2015",
         "twitter": "@upfrontconf",
-        "website": "upfrontconf.com",
+        "website": "http://upfrontconf.com",
         "advertised": "twitter, word of month, Mcr Digital"
     }
 ]
