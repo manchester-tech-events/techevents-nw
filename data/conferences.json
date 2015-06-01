@@ -4,7 +4,8 @@
         "description": "Unorganised conference.",
         "organiser": "Claire Dodd",
         "email": "claire@barcampmanchester.co.uk",
-        "when": "Annually",
+        "where": "AutoTrader offices",
+        "when": "26th and 27th September 2015",
         "twitter": "@barcampmcr",
         "website": "http://barcampmanchester.co.uk/",
         "advertised": "Twitter, Facebook, Meetup, Mailers to local tech business & universities, Word of Mouth"
@@ -58,6 +59,8 @@
         "description": "Unconference for girls and women interested in STEM",
         "organiser": "Katie Steckles",
         "email": "manchestergirlgeeks@gmail.com",
+        "where": "AutoTrader offices",
+        "when": "30th June 2015",
         "twitter": "@mcrgirlgeeks",
         "website": "http://www.manchestergirlgeeks.com",
         "advertised": "Monthly newsletter, @mcrgirlgeeks and in the local community."
