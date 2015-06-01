@@ -47,7 +47,7 @@
         "email": "info@digicurry.co.uk",
         "where": "Indian restaurants around Manchester",
         "when": "bi-monthly, usually on a tuesday towards the end of the month",
-        "website": "digicurry.co.uk",
+        "website": "http://digicurry.co.uk",
         "advertised": "twitter @digicurry, mailchimp"
     },
     {
@@ -293,7 +293,7 @@
         "where": "MadLab",
         "when": "First Monday of each month.",
         "twitter": "@nsmanchester",
-        "website": "twitter.com/nsmanchester",
+        "website": "http://www.meetup.com/NSManchester/",
         "advertised": "Twitter, Meetup.com, Eventbrite, Madlab site, Facebook"
     },
     {
@@ -358,7 +358,7 @@
         "where": "Manchester",
         "when": "3-4 times a year. Always on a Friday evening.",
         "twitter": "@twitfacedevents",
-        "website": "www.twitfaced.co.uk",
+        "website": "http://www.twitfaced.co.uk",
         "advertised": "twitter, word of mouth, brand ambassadors/sponsors"
     },
     {
@@ -369,7 +369,7 @@
         "where": "Man Met Uni",
         "when": "10th October 2015",
         "twitter": "@wcmcr",
-        "website": "manchester.wordcamp.org",
+        "website": "http://manchester.wordcamp.org",
         "advertised": "twitter, MWUG user group, WordPress notices. "
     },
     {
@@ -380,7 +380,7 @@
         "where": "MadLab",
         "when": "Second Thursday of the month",
         "twitter": "@xpmanchester",
-        "website": "xpmanchester.wordpress.com",
+        "website": "http://xpmanchester.wordpress.com",
         "advertised": "Badly"
     }
 ]
