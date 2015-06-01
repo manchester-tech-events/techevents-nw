@@ -1,5 +1,16 @@
 [
     {
+        "name": "AWS User Group North",
+        "description": "Amazon Web Services User Group for Manchester & the north west",
+        "organiser": "Alex McConnell",
+        "email": "alex.mcconnell@intechnica.co.uk",
+        "where": "Various",
+        "when": "Bimonthly",
+        "twitter": "@awsugn",
+        "website": "http://www.meetup.com/AWS-User-Group-North/",
+        "advertised": "Meetup, Twitter, LinkedIn etc"
+    },
+    {
         "name": "CoderDojo",
         "description": "Manchester CoderDojo is a volunteer-led community group for young people learning to code and make things.",
         "organiser": "Steven Flowers",
@@ -26,7 +37,7 @@
         "where": "Varies",
         "when": "Every 6 weeks roughly ",
         "twitter": "@devopsmanc",
-        "website": "http://www.devopsmanchester.co.uk",
+        "website": "http://www.devopsmanchester.co.uk/",
         "advertised": "Website\nTwitter\nEventBrite\nMeetup\nSocial"
     },
     {
