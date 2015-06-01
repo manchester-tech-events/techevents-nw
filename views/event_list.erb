@@ -8,7 +8,7 @@
         <td><%unless event["website"].nil? %><a href='<%=event["website"]%>' target='_new'><i class="world icon"></i></a><%end%></td>
         <td><%unless event["twitter"].nil? %><a href='http://twitter.com/<%=event["twitter"]%>' target='_new'><i class="blue twitter icon"></i></a><%end%></td>
         <td><%=event["description"] || "&nbsp;"%></td>
-        <td><i class="map icon"></i><%=event["where"] || "&nbsp;"%></td>
+        <td><i class="marker icon"></i><%=event["where"] || "&nbsp;"%></td>
         <td><i class="calendar icon"></i><%=event["when"] || "&nbsp;"%></td>
       </tr>
     <%end%>
