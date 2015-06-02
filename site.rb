@@ -43,6 +43,10 @@ class App < Sinatra::Application
 		erb :calendar, :layout => :layout
 	end
 
+	get '/elsewhere' do
+		erb :elsewhere, :layout => :layout
+	end
+
 	get '/about' do
 		erb :about, :layout => :layout
 	end
