@@ -212,6 +212,17 @@
         "advertised": "via Meetup, twitter, and linkedin"
     },
     {
+        "name": "Liverpool Linux User Group",
+        "description": "A group for fans and users of Free and Open Source software. We meet once a month to for presentations, discussions, social events and even the occasional bit of hardware hacking or computer support. There is no level of technical expertise required to attend LivLUG and we pride ourselves on being open and friendly to all.",
+        "organiser": "Dan Lynch",
+        "email": "dan@danlynch.org",
+        "where": "DOES Liverpool",
+        "when": "1st Wednesday of each month",
+        "twitter": "@livlug",
+        "website": "http://livlug.org.uk/",
+        "advertised": "Website, twitter, facebook & mailing lists"
+    },
+    {
         "name": "Manchester Codejo",
         "description": "A place to practice and perfect your coding skills by performing katas",
         "organiser": "Iain Mitchell",
@@ -294,7 +305,7 @@
         "organiser": "Claire",
         "email": "claire@squarejazzsolutions.com",
         "where": "Varies",
-        "when": "Every 3rd Tuesday of the month",
+        "when": "Every 3rd Tuesday of every second month, May and July is 2nd Tuesday of the month",
         "twitter": "@McrTesterGather",
         "website": "http://www.meetup.com/North-West-Tester-Gathering/",
         "advertised": "Twitter\nMeet up group"
@@ -331,6 +342,17 @@
         "twitter": "@nwrug",
         "website": "http://nwrug.org",
         "advertised": "Website, twitter and mailing list"
+    },
+    {
+        "name": "OWASP Manchester",
+        "description": "Web application security meet. Security pro / software dev / newbie friendly.\nLocal chapter of OWASP.org",
+        "organiser": "OWASP MCR Team / \nStuart Walker",
+        "email": "owasp-manchester@lists.owasp.org / \nstuartw1@gmail.com",
+        "where": "Varies",
+        "when": "Varies - next is 17th june 2015",
+        "twitter": "@owaspmcr",
+        "website": "https://www.owasp.org/index.php/Manchester",
+        "advertised": "Website, twitter, mailing-list"
     },
     {
         "name": "PHPNW Monthly Meeting",
