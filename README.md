@@ -1,16 +1,20 @@
 # techevents-nw
 You need to have ruby and bundler installed.
 
+```
 bundle install
+```
 
 to install dependencies
 
+```
 rake run
+```
 
-to run the app on localhost:3000
+to run the app on `localhost:3000`
 
-edit site.rb to add new routes
-layout.erb is the template, put your content into your page .erb (see the calendar route for an example)
+edit `site.rb` to add new routes
+`layout.erb` is the template, put your content into your page .erb (see the calendar route for an example)
 
 Using semantic-ui for the UI framework
 
