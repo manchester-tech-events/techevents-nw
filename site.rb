@@ -47,6 +47,10 @@ class App < Sinatra::Application
 		erb :elsewhere, :layout => :layout
 	end
 
+	get '/slack' do
+		erb :slack, :layout => :layout
+	end
+
 	get '/about' do
 		erb :about, :layout => :layout
 	end
