@@ -27,12 +27,12 @@ class App < Sinatra::Application
 
 	# 404 Error!
 	not_found do
-	  status 404
-	  erb :not_found, :layout => :layout
+		status 404
+		erb :not_found, :layout => :layout
 	end
 
 	error do
-	  erb :error, :layout => :layout
+		erb :error, :layout => :layout
 	end
 
 	get '/' do
@@ -60,14 +60,14 @@ class App < Sinatra::Application
 	end
 
 	get '/groups' do
-		json = File.read('data/groups.json') 
-		events = JSON.parse(json)  
+		json = File.read('data/groups.json')
+		events = JSON.parse(json)
 		erb :event_list, :layout => :layout, :locals => {events:events}
 	end
 
 	get '/conferences' do
-		json = File.read('data/conferences.json') 
-		events = JSON.parse(json)  
+		json = File.read('data/conferences.json')
+		events = JSON.parse(json)
 		erb :event_list, :layout => :layout, :locals => {events:events}
 	end
 end
