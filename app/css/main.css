@@ -4,17 +4,13 @@
 }
 
 html {
-  background: url('/images/hackmcr.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: #fc0 url(../images/bee.png) -73px -58px fixed no-repeat
 }
 
 body{
   font-family: 'Open Sans', sans-serif;
   margin: 0 10% 5% 10%;
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,.8);
 }
 
 .m-b-reset{
@@ -52,4 +48,18 @@ body{
 
 .ui .button{
   text-transform: capitalize;
+}
+
+.copy {
+    padding: 10px 20px;
+}
+
+.bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-image: url(../images/bg.png);
+    width: 713px;
+    height: 550px;
 }
