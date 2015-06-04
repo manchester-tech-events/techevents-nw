@@ -55,6 +55,10 @@ class App < Sinatra::Application
 		erb :about, :layout => :layout
 	end
 
+	get '/speakers' do
+		erb :speakers, :layout => :layout
+	end
+
 	get '/groups' do
 		json = File.read('data/groups.json') 
 		events = JSON.parse(json)  
