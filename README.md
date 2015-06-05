@@ -45,7 +45,7 @@ edit `site.rb` to add new routes
 
 Using semantic-ui for the UI framework
 
-#when you're ready to commit
+## when you're ready to commit
 just
 ```
 rake git m='commit message'
