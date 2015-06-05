@@ -1,12 +1,19 @@
 <table class="ui pink striped tablet stackable table">
-  <thead>
-  </thead>
   <tbody>
     <%events.each do |event|%>
       <tr>
-        <td><%=event["name"] || "&nbsp;"%></td>
-        <td><%unless event["website"].nil? %><a href='<%=event["website"]%>' target='_new'><i class="world icon"></i></a><%end%></td>
-        <td><%unless event["twitter"].nil? %><a href='http://twitter.com/<%=event["twitter"]%>' target='_new'><i class="blue twitter icon"></i></a><%end%></td>
+        <td>
+          <%if event["website"].nil? %>
+            <%=event["name"] || "&nbsp;"%>
+          <%else%>
+            <a href='<%=event["website"]%>' target='_new'><i class="world icon"></i><%=event["name"] || "&nbsp;"%></a>
+          <%end%> 
+          <%unless event["twitter"].nil? %>
+            <a href='http://twitter.com/<%=event["twitter"]%>' target='_new'>
+              <i class="blue twitter icon"></i>
+            </a>
+          <%end%>
+        </td>
         <td><%=event["description"] || "&nbsp;"%></td>
         <td><i class="marker icon"></i><%=event["where"] || "&nbsp;"%></td>
         <td><i class="calendar icon"></i><%=event["when"] || "&nbsp;"%></td>
@@ -14,29 +21,3 @@
     <%end%>
   </tbody>
 </table>
-
-<!-- <div class="ui modal">
-  <i class="close icon"></i>
-  <div class="header">
-    Profile Picture
-  </div>
-  <div class="content">
-    <div class="ui medium image">
-      <img src="/images/avatar/large/chris.jpg">
-    </div>
-    <div class="description">
-      <div class="ui header">We've auto-chosen a profile image for you.</div>
-      <p>We've grabbed the following image from the <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated with your registered e-mail address.</p>
-      <p>Is it okay to use this photo?</p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui black button">
-      Nope
-    </div>
-    <div class="ui positive right labeled icon button">
-      Yep, that's me
-      <i class="checkmark icon"></i>
-    </div>
-  </div>
-</div> -->
