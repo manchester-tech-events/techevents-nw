@@ -3,31 +3,15 @@
   padding: 0;
 }
 
-html {
-  background: #fc0 url(../images/bee.png) -73px -58px fixed no-repeat
-}
 
 body{
   font-family: 'Open Sans', sans-serif;
+  background: #fc0 url(../images/bee.png) -73px -58px fixed no-repeat
+}
+
+.container{
+  background-color: rgba(255,255,255,.7);
   margin: 0 10% 5% 10%;
-  background-color: rgba(255,255,255,.8);
-}
-
-.m-b-reset{
-  margin-bottom: 0px !important;
-}
-
-.margin-reset{
-  margin: 0px !important;
-}
-
-.padding-reset{
-  padding: 0px !important;
-}
-
-.ui .message{
-  padding-top: 30px !important;
-  padding-bottom:  50px !important;
 }
 
 .ui.huge.message {
@@ -36,10 +20,6 @@ body{
 
 .ui.segment {
     background-color: rgba(255,255,255,0.7);
-}
-
-.m-top-10{
-  margin-top: 10px !important;
 }
 
 .hidden{
