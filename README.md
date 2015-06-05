@@ -45,6 +45,14 @@ edit `site.rb` to add new routes
 
 Using semantic-ui for the UI framework
 
+#when you're ready to commit
+just
+```
+rake git m='commit message'
+```
+And CircleCI will deploy your changes to heroku and be live on technw.uk within a couple of minutes
+
+
 # How to start your own!
  - start a slack group
  - invite a load of people
