@@ -1,17 +1,44 @@
 # techevents-nw
+install git on your machine
+http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/
+
+Clone the repo using the https url to the right ---> 
+```
+git clone https://github.com/manchester-tech-events/techevents-nw.git
+```
+NOTE: this will create a newfolder with all this content in it.
+
+Install rvm:
+https://rvm.io/rvm/install
+
+Install ruby 2.2.0
+```
+rvm install 2.2.0
+```
+
+Use 2.2.0
+```
+rvm use 2.2.0
+```
+
+Install Bundler
+```
+gem install bundler
+```
+
 You need to have ruby and bundler installed.
 
+to install dependencies run:
 ```
 bundle install
 ```
 
-to install dependencies
-
+to start the app run:
 ```
 rake run
 ```
 
-to run the app on `localhost:3000`
+Make a note of the port used and point your browser to `localhost:3000` (replace 3000 with the port mentioned before)
 
 edit `site.rb` to add new routes
 `layout.erb` is the template, put your content into your page .erb (see the calendar route for an example)
