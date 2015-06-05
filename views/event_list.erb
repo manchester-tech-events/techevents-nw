@@ -1,4 +1,4 @@
-<table class="ui pink striped tablet stackable table">
+<table class="ui tablet stackable table">
   <tbody>
     <%events.each do |event|%>
       <tr>
@@ -14,7 +14,7 @@
             </a>
           <%end%>
         </td>
-        <td><%=event["description"] || "&nbsp;"%></td>
+        <!-- <td><%=event["description"] || "&nbsp;"%></td> -->
         <td><i class="marker icon"></i><%=event["where"] || "&nbsp;"%></td>
         <td><i class="calendar icon"></i><%=event["when"] || "&nbsp;"%></td>
       </tr>

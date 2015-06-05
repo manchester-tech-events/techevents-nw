@@ -1,0 +1,40 @@
+@media only screen and (max-device-width: 480px) {
+  body{
+    font-family: 'Open Sans', sans-serif;
+    background: #fc0;
+  }
+
+  .container{
+    background-color: rgba(255,255,255,.7);
+    margin: 0;
+  }
+
+  .ui.huge.message {
+    font-size:medium;
+    background-color: rgba(255,255,255,0);
+  }
+
+  .ui.segment {
+      background-color: rgba(255,255,255,0.7);
+  }
+
+  .hidden{
+    opacity: 0;
+  }
+
+  .ui .button{
+    text-transform: capitalize;
+  }
+
+  .copy {
+      padding: 10px 20px;
+  }
+
+  .ui .table{
+    width:100%;
+  }
+
+  .bg {
+      background-image: none;
+  }
+}
