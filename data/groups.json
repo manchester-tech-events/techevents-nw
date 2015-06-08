@@ -300,6 +300,28 @@
         "advertised": "Twitter / mail chimp / word of mouth"
     },
     {
+        "name": "Meteor JS Manchester",
+        "description": "MeteorJS is an open-source real-time Javascript web application framework built on top of node.js \nWant to learn how to build apps that are a delight to use, faster than you ever thought possible.\nMeteor is a complete open source platform for building web and mobile apps in pure JavaScript.",
+        "organiser": "Azizur Rahman",
+        "email": "azizur@prodevstudio.com\nazizur.rahman@bbc.co.uk",
+        "where": "MadLab",
+        "when": "Second Wednesday of the month, 7pm.",
+        "twitter": "@metorjsman",
+        "website": "http://manchester.meteor.com/",
+        "advertised": "Meetup, Meteor Forum, MadLab, Twitter, Word of mouth, here."
+    },
+    {
+        "name": "North West Playtesters",
+        "description": "Meet up with game designers and playtest each other's games.",
+        "organiser": "Luke Perkin, Simon Smith",
+        "email": "lukeperkin@gmail.com",
+        "where": "MadLab",
+        "when": "First Wednesday of the month, 7pm.",
+        "twitter": "@locofilm",
+        "website": "http://www.meetup.com/North-West-Playtesters/",
+        "advertised": "MadLab, Twitter, Board Game Geek, word of mouth, here."
+    },
+    {
         "name": "North West Tester Gathering",
         "description": "Meetup for testers and QA's",
         "organiser": "Claire",
@@ -308,7 +330,7 @@
         "when": "Every 3rd Tuesday of every second month, May and July is 2nd Tuesday of the month",
         "twitter": "@McrTesterGather",
         "website": "http://www.meetup.com/North-West-Tester-Gathering/",
-        "advertised": "Twitter\nMeet up group"
+        "advertised": "Twitter\nFacebook\nMeet up group\nLinkedIn"
     },
     {
         "name": "NSManchester",
@@ -379,10 +401,10 @@
     {
         "name": "SheSays",
         "description": "helps women in digital & creative industries further their careers through meet-ups, mentoring and inspiring events.",
-        "organiser": "Gabi Iskandar\nVim",
+        "organiser": "Gabi Iskandar\nVimla Appadoo & others",
         "email": "gabiskandar@gmail.com",
         "where": "SpaceportX",
-        "when": "Monthly",
+        "when": "Every other month - next event is 25th June 2015",
         "twitter": "@shesaysmcr",
         "website": "\n"
     },
@@ -407,6 +429,17 @@
         "twitter": "@wcmcr",
         "website": "http://manchester.wordcamp.org",
         "advertised": "twitter, MWUG user group, WordPress notices. "
+    },
+    {
+        "name": "WPUG",
+        "description": "WPUG is an independent community-run group that hosts meetups in Manchester for anyone interested in designing and developing for Windows; be that Phone, Desktop, IoT or even HoloLens.",
+        "organiser": "Pete Vickers, Rik Garner, Oli Newsham",
+        "email": "oli.newsham@outlook.com",
+        "where": "SpaceportX",
+        "when": "Variable - usually ever couple of months on a Tuesday",
+        "twitter": "@wpugnw",
+        "website": "Nearly ready",
+        "advertised": "Twitter, word of mouth, Facebook"
     },
     {
         "name": "XPManchester",
