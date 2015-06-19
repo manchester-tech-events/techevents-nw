@@ -1,5 +1,44 @@
-<p>This is a public calendar. Feel free to use! Kept up to date by the organisers of the listed events</p>
+<p>This is a public calendar. Feel free to use! Kept up to date by the organisers of the listed events.<br/> Sign up to the mailing list below to receive a summary of the upcoming events.</p>
+
+<div class="ui input" style="padding:20px;">
+  <input type="text" placeholder="Name" style="margin-right:20px" name="name" id="name">
+  <input type="text" placeholder="Email address" style="margin-right:20px" name="email" id="email">
+  <div class="ui button" name="go" id="go">
+    Subscribe to calendar
+    </div>
+</div>
 
 <a href="https://www.google.com/calendar/feeds/a73q3trj8bssqjifgolb1q8fr4%40group.calendar.google.com/public/basic" target="_blank"><img src="https://www.google.com/calendar/images/xml.gif" alt="" /></a>&nbsp;<a href="https://www.google.com/calendar/ical/a73q3trj8bssqjifgolb1q8fr4%40group.calendar.google.com/public/basic.ics" target="_blank"><img src="https://www.google.com/calendar/images/ical.gif" alt="" /></a>&nbsp;<a href="https://www.google.com/calendar/embed?src=a73q3trj8bssqjifgolb1q8fr4%40group.calendar.google.com&amp;ctz=Europe/London" target="_blank"><img src="https://www.google.com/calendar/images/html.gif" alt="" /></a>
 
 <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=a73q3trj8bssqjifgolb1q8fr4%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Europe%2FLondon" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+<script type="text/javascript">
+$(function(){
+  $('#go').click(function(){
+      run_validator($('#email').val(), {
+         api_key: 'pubkey-817b7732ae9446060d9e3e40e860bd04',
+         in_progress: function(){
+
+         },
+         success: function(data){
+              if(data.is_valid){
+                      $.ajax({
+                          type: "GET",
+                          url: 'http://pixelcode.co.uk/ht/technw.php',
+                          dataType : 'jsonp',
+                          crossDomain  : true,
+                          data: { 'email': $('#email').val(), 'name': $('#name').val()}
+                        }).always(function( msg ) {
+                          alert('Done');
+                      });
+              }else{
+                  alert('error');
+              }
+         },
+         error: function(data){
+          alert('error');
+       },
+      });
+  });
+});
+</script>
