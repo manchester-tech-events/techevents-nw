@@ -29,14 +29,14 @@ $(function(){
                           crossDomain  : true,
                           data: { 'email': $('#email').val(), 'name': $('#name').val()}
                         }).always(function( msg ) {
-                          alert('Done');
+                          sweetAlert("Added!", "You have been added to our mailing list :-)", "success");
                       });
               }else{
-                  alert('error');
+                  sweetAlert("Email error", "Please check your email address and try again", "error");
               }
          },
          error: function(data){
-          alert('error');
+          sweetAlert("Email error", "Please check your email address and try again", "error");
        },
       });
   });
