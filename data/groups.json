@@ -11,15 +11,6 @@
         "advertised": "Meetup, Twitter, LinkedIn etc"
     },
     {
-        "name": "CoderDojo",
-        "description": "Manchester CoderDojo is a volunteer-led community group for young people learning to code and make things.",
-        "organiser": "Steven Flowers",
-        "where": "Sharp Project",
-        "when": "one Sunday a month",
-        "twitter": "@mcrcoderdojo",
-        "website": "http://mcrcoderdojo.org.uk/"
-    },
-    {
         "name": "CurryBeer",
         "description": "The traditional Currybeer events are held on the first Friday of each month, unless that clashes with a public holiday (e.g. New Year's Day). Alternative cuisines are usually held on the third Friday of the month, chosen from a variety of venues.",
         "organiser": "Paul Waring",
@@ -232,6 +223,15 @@
         "twitter": "@manc_codejo",
         "website": "http://manchester-codejo.com",
         "advertised": "Twitter, Word of mouth"
+    },
+    {
+        "name": "Manchester CoderDojo",
+        "description": "Manchester CoderDojo is a volunteer-led community group for young people learning to code and make things.",
+        "organiser": "Steven Flower",
+        "where": "Sharp Project",
+        "when": "2nd Sunday of the month (except August)",
+        "twitter": "@mcrcoderdojo",
+        "website": "http://mcrcoderdojo.org.uk/"
     },
     {
         "name": "Manchester Girl Geeks",
