@@ -278,6 +278,17 @@
         "advertised": "Twitter, event calendars, word of mouth, currently trying a mailing list"
     },
     {
+        "name": "Manchester WordPress User Group (MWUG)",
+        "description": "MWUG, the Manchester WordPress User Group is run by the WordPress co-founder, Mike Little. We are a group of people from in and around Manchester, UK, who use the open source web publishing software WordPress to blog, design, and develop websites.",
+        "organiser": "Mike Little",
+        "email": "mwug@zed1.com",
+        "where": "MadLab",
+        "when": "Third Wednesday of every month",
+        "twitter": "@mwug",
+        "website": "http://mwug.info",
+        "advertised": "Twitter, Meetup.com, Google Group/mailing list"
+    },
+    {
         "name": "MancJS",
         "description": "Meetup for Javascript developers. Talks and workshops.",
         "organiser": "Martin Rue",
