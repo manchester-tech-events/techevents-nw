@@ -409,6 +409,16 @@
         "advertised": "Website (down lol), Twitter, Google group"
     },
     {
+        "name": "Scala Developers Manchester",
+        "description": "Discussing all things Scala.",
+        "organiser": "Alex Lashford",
+        "email": "alexlashford@gmail.com",
+        "where": "MadLab",
+        "when": "Last Monday of the Month",
+        "website": "http://www.meetup.com/scala-developers/",
+        "advertised": "Meetup, Twitter, Talking to real people etc"
+    },
+    {
         "name": "SheSays",
         "description": "helps women in digital & creative industries further their careers through meet-ups, mentoring and inspiring events.",
         "organiser": "Gabi Iskandar\nVimla Appadoo & others",
