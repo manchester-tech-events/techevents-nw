@@ -147,6 +147,17 @@
         "advertised": "Mailing list, Twitter, IRC"
     },
     {
+        "name": "Get-PSUGUKMan",
+        "description": "Meet up of Windows PowerShell Users in Manchester Region",
+        "organiser": "Ryan Yates",
+        "email": "get-psuguk@kilasuit.org",
+        "where": "Varies",
+        "when": "Varies",
+        "twitter": "@getpsugukman",
+        "website": "http://www.get-psuguk.org",
+        "advertised": "Tweet through out the month and word of mouth. We also send out emails to our attendees."
+    },
+    {
         "name": "HackerNest",
         "description": "HackerNest is an international nonprofit focused on building supportive “Silicon Valley”-type tech communities everywhere ",
         "organiser": "Jenni Wardell",
