@@ -105,17 +105,6 @@
         "advertised": "Twitter\nFacebook Startup Group"
     },
     {
-        "name": "Drupal Sprints NW / NWDUG",
-        "description": "Drupal user group",
-        "organiser": "Philip Norton",
-        "email": "philipnorton42@gmail.com",
-        "where": "MadLab",
-        "when": "first Wednesday of the month",
-        "twitter": "@nwdug",
-        "website": "http://www.nwdrupal.org.uk",
-        "advertised": "Combination of http://www.meetup.com/nwdrupal/ our own website, Twitter, and Facebook (not including word of mouth). We meet up on the first Wednesday of each month in Madlab so it's pretty easy to remember.\nThe Drupal Sprints are organised in the same way with the event posted on multiple places.\nThere was no DrupalCampNW this year, but in previous years this got a lot more attention in terms of posting it in as many places as possible."
-    },
-    {
         "name": "FLOSS UK",
         "description": "FLOSS UK, the UK open source advocacy group",
         "organiser": "Ian Norton",
