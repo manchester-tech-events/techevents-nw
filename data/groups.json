@@ -333,6 +333,17 @@
         "advertised": "Meetup, Meteor Forum, MadLab, Twitter, Word of mouth, here."
     },
     {
+        "name": "North West Drupal User Group",
+        "description": "A group for Drupal users.",
+        "organiser": "Phillip Norton / Mike Bell / Elliot Ward",
+        "email": "nwdrupal@gmail.com",
+        "where": "MadLab",
+        "when": "Second Tuesday of the month, 7pm.",
+        "twitter": "@nwdug",
+        "website": "http://nwdrupal.org.uk/",
+        "advertised": "MadLab, Twitter, Meetup, Slack."
+    },
+    {
         "name": "North West Playtesters",
         "description": "Meet up with game designers and playtest each other's games.",
         "organiser": "Luke Perkin, Simon Smith",
