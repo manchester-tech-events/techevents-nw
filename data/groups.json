@@ -106,7 +106,7 @@
     },
     {
         "name": "Manchester Elastic User Group",
-        "description": "This group is for anyone interested in open source search, logging, analytics & data visualization. We primarily focus on three open source projects — Elasticsearch, Logstash, and Kibana — but we welcome talks on any aspect of data exploration."",
+        "description": "This group is for anyone interested in open source search, logging, analytics & data visualization. We primarily focus on three open source projects — Elasticsearch, Logstash, and Kibana — but we welcome talks on any aspect of data exploration.",
         "organiser": "Andy Lowry, Steve Elliot",
         "where": "Varies",
         "when": "Every 2 months",
@@ -162,7 +162,7 @@
        "email": "chris.hyland@hylandspring.com",
        "where": "Rental Cars Offices, central Manchester",
        "when": "Usually quarterly on Wednesdays",
-       "website": "http://http://www.meetup.com/HadoopManchester",
+       "website": "http://www.meetup.com/HadoopManchester",
        "advertised": "Meetup"
     },
     {
@@ -188,7 +188,7 @@
         "advertised": "Tweet through out the month and word of mouth. We also send out emails to our attendees."
     },
     {
-        "name": "Ladies who code - Manchester",
+        "name": "Ladies who celasode - Manchester",
         "description": "monthly meetup to hear talks from leaders in the field and hack whilst developing our code-fu in the process",
         "organiser": "Tanvi Sethi",
         "email": "sethi.tanvi@gmail.com",
@@ -473,7 +473,7 @@
         "name": "Technology.UG",
         "description": "An event focusing on new Technology, covering topics such as, AWS, DevOps, Infrastructure, and more",
         "organiser": "Gav Brining",
-        "email": "gavin.Brining@Technology.ug,
+        "email": "gavin.Brining@Technology.ug",
         "where": "Doubletree Piccadilly",
         "when": "Twice a year in March and September",
         "twitter": "@TechUG",
