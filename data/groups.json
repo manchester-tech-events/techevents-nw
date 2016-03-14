@@ -156,6 +156,16 @@
         "advertised": "Tweet through out the month and word of mouth. We also send out emails to our attendees."
     },
     {
+       "name": "Hadoop Manchester",
+       "description": "Technical meetup for all Hadoop and eco system related technologies",
+       "organiser": "Chris Hyland",
+       "email": "chris.hyland@hylandspring.com",
+       "where": "Rental Cars Offices, central Manchester",
+       "when": "Usually quarterly on Wednesdays",
+       "website": "http://http://www.meetup.com/HadoopManchester",
+       "advertised": "Meetup"
+    },
+    {
         "name": "HackerNest",
         "description": "HackerNest is an international nonprofit focused on building supportive “Silicon Valley”-type tech communities everywhere ",
         "organiser": "Jenni Wardell",
