@@ -105,6 +105,15 @@
         "advertised": "Twitter\nFacebook Startup Group"
     },
     {
+        "name": "Manchester Elastic User Group",
+        "description": "This group is for anyone interested in open source search, logging, analytics & data visualization. We primarily focus on three open source projects — Elasticsearch, Logstash, and Kibana — but we welcome talks on any aspect of data exploration."",
+        "organiser": "Andy Lowry, Steve Elliot",
+        "where": "Varies",
+        "when": "Every 2 months",
+        "twitter": "@ElasticManc",
+        "website": "http://www.meetup.com/Manchester-Elastic-Fantastics/"
+    },
+    {
         "name": "FLOSS UK",
         "description": "FLOSS UK, the UK open source advocacy group",
         "organiser": "Ian Norton",
