@@ -203,9 +203,18 @@
 	"description": "Lean Agile Manchester is intended to be the home of Lean (Kanban), Agile community in Manchester and surrounding areas",
 	"organiser": "Ian Carroll",
 	"email": "ian@solutioneers.co.uk",
-	"where": "MadLab",
+	"where": "Valtech, Basil Chambers. 65 High Street. M4 1FS",
 	"when": "3rd Wednesday each month",
 	"website": "http://www.meetup.com/lean-agile-manchester",
+	"advertised": "via Meetup, twitter, and linkedin"
+}, {
+	"name": "Lean Agile Warrington",
+	"description": "This is a group for anyone wanting to learn more about Agile software development. All skill levels are welcome. This group predominantly attracts Project Managers, Developers, Testers, Business Analysts, IT Operations folk, Scrum Masters, or anyone involved in the development lifecycle of software.",
+	"organiser": "Ian Carroll",
+	"email": "ian@solutioneers.co.uk",
+	"where": "Warrington",
+	"when": "1st Wednesday each month",
+	"website": "http://www.meetup.com/lean-agile-warrington",
 	"advertised": "via Meetup, twitter, and linkedin"
 }, {
 	"name": "Liverpool Linux User Group",
