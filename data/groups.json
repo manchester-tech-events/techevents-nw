@@ -493,4 +493,14 @@
 	"twitter": "@xpmanchester",
 	"website": "http://xpmanchester.wordpress.com",
 	"advertised": "Badly"
+}, {
+	"name": "Manchester SQL Server/Data Platform User Group",
+	"description": "A Microsoft Data Platform User Group with a focus on SQL Server and Azure",
+	"organiser": "Chris Testa-O'Neill",
+	"email": "ctesta-oneill@hotmail.co.uk",
+	"where": "Swinton Insurance, Bridgewater House, 5th Floor, Whitworth Street, Manchester",
+	"when": "variable - every 6 weeks",
+	"twitter": "#ManSSUG",
+	"website": "http://www.sqlserverfaq.com",
+	"advertised": "Word of mouth, Web, Twitter"
 }]
