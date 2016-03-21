@@ -26,6 +26,16 @@
 	"website": "http://www.currybeer.com",
 	"advertised": "Mailing list, Twitter, IRC"
 }, {
+	"name": "The Dev Bakery",
+	"description": "Primarily .Net focused development user group in the centre of Altrincham. The evenings will consist of a primary speaker, occasionally a secondary speaker, a break in the middle for pizza, and a trip to the pub afterwards!",
+	"organiser": "Slicedbread",
+	"email": "",
+	"where": "Slicedbread, The Bakery, 70 Stamford New Road, Altrincham, WA14 1EE",
+	"when": "Third Wednesday of the month (roughly)",
+	"twitter": "@thedevbakery",
+	"website": "http://www.thedevbakery.co.uk/",
+	"advertised": ""
+}, {
 	"name": "DevOps Manchester",
 	"description": "Group for people interested in, or practicing Devops.",
 	"organiser": "James Heggs\nMark Crossfield",
