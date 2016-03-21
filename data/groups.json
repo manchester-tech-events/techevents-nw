@@ -216,7 +216,19 @@
 	"when": "1st Wednesday each month",
 	"website": "http://www.meetup.com/lean-agile-warrington",
 	"advertised": "via Meetup, twitter, and linkedin"
-}, {
+}, 
+{
+      "name": "Leigh Hackspace Code Club",
+      "description": "FREE Code Club for kids, held every Thursday at Leigh Hackspace 1800-1900, with 'grown-ups' Code Club immediately following 1900 till late (members only)",
+      "organiser": "Marcus at Leigh Hackspace",
+      "email": "marcusbaw@gmail.com",
+      "where": "Leigh Hackspace, Unit F1, The Cotton Mill, Mather Lane, Leigh, Lancashire, WN7 2PW",
+      "when": "Every Thursday, 1800-1900, with 'grown-ups' Code Club immediately following (members only)",
+      "twitter": "@leigh_hackspace",
+      "website": "http://www.meetup.com/Leigh-Hackspace/?scroll=true",
+      "advertised": "Meetup, Twitter, Facebook"
+},
+{
 	"name": "Liverpool Linux User Group",
 	"description": "A group for fans and users of Free and Open Source software. We meet once a month to for presentations, discussions, social events and even the occasional bit of hardware hacking or computer support. There is no level of technical expertise required to attend LivLUG and we pride ourselves on being open and friendly to all.",
 	"organiser": "Dan Lynch",
