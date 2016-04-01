@@ -286,6 +286,17 @@
         "advertised": "Via meetup.com and through twitter @mcrjava and linkedin group"
     },
     {
+        "name": "Manchester React User Group",
+        "description": "Meet up for developers interested in React and it's ecosystem.",
+        "organiser": "Joe Critchley, Chris Hale",
+        "email": "joe@strobedigital.com",
+        "where": "Spaceport X",
+        "when": "3rd Monday of the month",
+        "twitter": "@mancreact",
+        "website": "http://www.meetup.com/Manchester-React-User-Group/",
+        "advertised": "#mancreact on twitter, via meetup.com and on Slack: mcrtech/#reactjs"
+    },
+    {
         "name": "Manchester Tech Nights",
         "description": "Manchester Tech Nights is a meetup aimed at Manchester's technology community, either the people who are making Manchester's tech scene what it is, or just those who are interested and want to keep up-to-date. We want to find out what's going on across the north west, regardless of language. The night kicks off with a headline talk, followed by a series of shorter lightning talks and then an informal chat between attendees.",
         "organiser": "Chris Northwood",
