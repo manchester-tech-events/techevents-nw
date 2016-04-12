@@ -486,15 +486,15 @@
 	"website": "http://manchester.wordcamp.org",
 	"advertised": "twitter, MWUG user group, WordPress notices. "
 }, {
-	"name": "WPUG",
-	"description": "WPUG is an independent community-run group that hosts meetups in Manchester for anyone interested in designing and developing for Windows; be that Phone, Desktop, IoT or even HoloLens.",
-	"organiser": "Pete Vickers, Rik Garner, Oli Newsham",
+	"name": "WPUG: Windows Platform User Group",
+	"description": "Windows Platform User Group is an independent community-run group that hosts meetups in Manchester for anyone interested in designing and developing for Windows; be that Phone, Desktop, IoT or even HoloLens.",
+	"organiser": "Pete Vickers, Rik Garner, Oli Newsham, Jason Holloway",
 	"email": "oli.newsham@outlook.com",
-	"where": "SpaceportX",
-	"when": "Variable - usually ever couple of months on a Tuesday",
+	"where": "Spaceport X, 24-26 Lever Street, Manchester, M1 1DZ, Manchester",
+	"when": "Monthly",
 	"twitter": "@wpugnw",
-	"website": "Nearly ready",
-	"advertised": "Twitter, word of mouth, Facebook"
+	"website": "http://wpug.uk",
+	"advertised": "Twitter, Meetup.com, word of mouth, Facebook"
 }, {
 	"name": "XPManchester",
 	"description": "Xp Manchester is a language agnostic software development user group with the prime directive of making software developers work smarter.",
