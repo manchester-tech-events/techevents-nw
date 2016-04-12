@@ -1,4 +1,15 @@
 [{
+     "name": "Android Manchester",
+     "description": "Meetups for Android enthusiasts",
+     "organiser": "Zain Mohammed (@zain_)",
+     "email": "zainfur.mohammed@gmail.com",
+     "where": "MadLab/SpacePort",
+     "when": "3rd Monday every month",
+     "twitter": "@android_mcr",
+     "website": "www.android-manchester.co.uk",
+     "advertised": "Twitter, Eventbrite"
+ },
+	{
 	"name": "AWS User Group North",
 	"description": "Amazon Web Services User Group for Manchester & the north west",
 	"organiser": "Alex McConnell",
@@ -437,7 +448,19 @@
 	"twitter": "@pythonnw\n",
 	"website": "http://pynw.org.uk",
 	"advertised": "Website (down lol), Twitter, Google group"
-}, {
+},
+{
+        "name": "Manchester React User Group",
+         "description": "Meetup for developers interested in React and its ecosystem.",
+         "organiser": "Joe Critchley, Chris Hale",
+         "email": "joe@strobedigital.com",
+        "where": "Spaceport X",
+        "when": "3rd Monday of the month",
+        "twitter": "@mancreact",
+        "website": "http://www.meetup.com/Manchester-React-User-Group/",
+        "advertised": "#mancreact on twitter, via meetup.com and on Slack: mcrtech/#reactjs"
+    },
+ {
 	"name": "Scala Developers Manchester",
 	"description": "Discussing all things Scala.",
 	"organiser": "Alex Lashford",
