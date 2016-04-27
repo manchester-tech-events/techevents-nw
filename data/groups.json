@@ -19,7 +19,18 @@
 	"twitter": "@awsugn",
 	"website": "http://www.meetup.com/AWS-User-Group-North/",
 	"advertised": "Meetup, Twitter, LinkedIn etc"
-}, {
+},
+	{
+	"name": "Craft CMS Manchester",
+	"description": "Come along for chats about Craft CMS and all things web. Whether you're using Craft already or thinking about getting into it, it'd be great to meet you.",
+	"organiser": "Club Studio",
+	"email": "hello@clubstudio.co.uk",
+	"where": "Rise Manchester, Deansgate",
+	"when": "First Thursday of every other month",
+	"twitter": "@clubstudioltd",
+	"website": "http://www.meetup.com/craftcmsmanchester/"
+},
+{
 	"name": "CoderDojo",
 	"description": "Manchester CoderDojo is a volunteer-led community group for young people learning to code and make things.",
 	"organiser": "Steven Flowers",
@@ -227,7 +238,7 @@
 	"when": "1st Wednesday each month",
 	"website": "http://www.meetup.com/lean-agile-warrington",
 	"advertised": "via Meetup, twitter, and linkedin"
-}, 
+},
 {
       "name": "Leigh Hackspace Code Club",
       "description": "FREE Code Club for kids, held every Thursday at Leigh Hackspace 1800-1900, with 'grown-ups' Code Club immediately following 1900 till late (members only)",
