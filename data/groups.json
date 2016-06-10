@@ -1,15 +1,14 @@
 [{
-     "name": "Android Manchester",
-     "description": "Meetups for Android enthusiasts",
-     "organiser": "Zain Mohammed (@zain_)",
-     "email": "zainfur.mohammed@gmail.com",
-     "where": "MadLab/SpacePort",
-     "when": "3rd Monday every month",
-     "twitter": "@android_mcr",
-     "website": "www.android-manchester.co.uk",
-     "advertised": "Twitter, Eventbrite"
- },
-	{
+	"name": "Android Manchester",
+	"description": "Meetups for Android enthusiasts",
+	"organiser": "Zain Mohammed (@zain_)",
+	"email": "zainfur.mohammed@gmail.com",
+	"where": "MadLab/SpacePort",
+	"when": "3rd Monday every month",
+	"twitter": "@android_mcr",
+	"website": "www.android-manchester.co.uk",
+	"advertised": "Twitter, Eventbrite"
+}, {
 	"name": "AWS User Group North",
 	"description": "Amazon Web Services User Group for Manchester & the north west",
 	"organiser": "Alex McConnell",
@@ -19,8 +18,7 @@
 	"twitter": "@awsugn",
 	"website": "http://www.meetup.com/AWS-User-Group-North/",
 	"advertised": "Meetup, Twitter, LinkedIn etc"
-},
-	{
+}, {
 	"name": "Craft CMS Manchester",
 	"description": "Come along for chats about Craft CMS and all things web. Whether you're using Craft already or thinking about getting into it, it'd be great to meet you.",
 	"organiser": "Club Studio",
@@ -29,8 +27,7 @@
 	"when": "First Thursday of every other month",
 	"twitter": "@clubstudioltd",
 	"website": "http://www.meetup.com/craftcmsmanchester/"
-},
-{
+}, {
 	"name": "CoderDojo",
 	"description": "Manchester CoderDojo is a volunteer-led community group for young people learning to code and make things.",
 	"organiser": "Steven Flowers",
@@ -238,19 +235,17 @@
 	"when": "1st Wednesday each month",
 	"website": "http://www.meetup.com/lean-agile-warrington",
 	"advertised": "via Meetup, twitter, and linkedin"
-},
-{
-      "name": "Leigh Hackspace Code Club",
-      "description": "FREE Code Club for kids, held every Thursday at Leigh Hackspace 1800-1900, with 'grown-ups' Code Club immediately following 1900 till late (members only)",
-      "organiser": "Marcus at Leigh Hackspace",
-      "email": "marcusbaw@gmail.com",
-      "where": "Leigh Hackspace, Unit F1, The Cotton Mill, Mather Lane, Leigh, Lancashire, WN7 2PW",
-      "when": "Every Thursday, 1800-1900, with 'grown-ups' Code Club immediately following (members only)",
-      "twitter": "@leigh_hackspace",
-      "website": "http://www.meetup.com/Leigh-Hackspace/?scroll=true",
-      "advertised": "Meetup, Twitter, Facebook"
-},
-{
+}, {
+	"name": "Leigh Hackspace Code Club",
+	"description": "FREE Code Club for kids, held every Thursday at Leigh Hackspace 1800-1900, with 'grown-ups' Code Club immediately following 1900 till late (members only)",
+	"organiser": "Marcus at Leigh Hackspace",
+	"email": "marcusbaw@gmail.com",
+	"where": "Leigh Hackspace, Unit F1, The Cotton Mill, Mather Lane, Leigh, Lancashire, WN7 2PW",
+	"when": "Every Thursday, 1800-1900, with 'grown-ups' Code Club immediately following (members only)",
+	"twitter": "@leigh_hackspace",
+	"website": "http://www.meetup.com/Leigh-Hackspace/?scroll=true",
+	"advertised": "Meetup, Twitter, Facebook"
+}, {
 	"name": "Liverpool Linux User Group",
 	"description": "A group for fans and users of Free and Open Source software. We meet once a month to for presentations, discussions, social events and even the occasional bit of hardware hacking or computer support. There is no level of technical expertise required to attend LivLUG and we pride ourselves on being open and friendly to all.",
 	"organiser": "Dan Lynch",
@@ -450,6 +445,16 @@
 	"website": "http://phpnw.org.uk/ ",
 	"advertised": "Website, Twitter @phpnw, Facebook, LinkedIn"
 }, {
+	"name": "Preston Hackspace Meetup",
+	"description": "Meet to chat, share knowledge, get help with and show off hacking/making projects",
+	"organiser": "Jayd Lawrence",
+	"email": "admin@prestonhackspace.org.uk",
+	"where": "Room CM101, Computing and Technology Building, UCLAN",
+	"when": "Second Monday every month",
+	"twitter": "@prestonhack",
+	"website": "http://prestonhackspace.org.uk/",
+	"advertised": "Website, Eventbrite, Twitter, Facebook, Google Groups"
+}, {
 	"name": "Python NW",
 	"description": "for Python developers",
 	"organiser": "Fiona Burrows",
@@ -459,19 +464,17 @@
 	"twitter": "@pythonnw\n",
 	"website": "http://pynw.org.uk",
 	"advertised": "Website (down lol), Twitter, Google group"
-},
-{
+}, {
         "name": "Manchester React User Group",
-         "description": "Meetup for developers interested in React and its ecosystem.",
-         "organiser": "Joe Critchley, Chris Hale",
-         "email": "joe@strobedigital.com",
+        "description": "Meetup for developers interested in React and its ecosystem.",
+        "organiser": "Joe Critchley, Chris Hale",
+        "email": "joe@strobedigital.com",
         "where": "Spaceport X",
         "when": "3rd Monday of the month",
         "twitter": "@mancreact",
         "website": "http://www.meetup.com/Manchester-React-User-Group/",
         "advertised": "#mancreact on twitter, via meetup.com and on Slack: mcrtech/#reactjs"
-    },
- {
+}, {
 	"name": "Scala Developers Manchester",
 	"description": "Discussing all things Scala.",
 	"organiser": "Alex Lashford",
