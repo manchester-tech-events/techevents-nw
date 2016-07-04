@@ -552,4 +552,14 @@
 	"twitter": "#ManSSUG",
 	"website": "http://www.sqlserverfaq.com",
 	"advertised": "Word of mouth, Web, Twitter"
+}, {
+	"name": "NetMCR",
+	"description": "A meetup for people doing, or interested in, Network Engineering in Manchester & the NW",
+	"organiser": "Tom Hill / Thom Seddon",
+	"email": "tom@ninjabadger.net",
+	"where": "Upstairs Bar @ 57 Thomas Street, Manchester",
+	"when": "2nd Thursday of the month",
+	"twitter": "@net_mcr",
+	"website": "http://netmcr.uk/",
+	"advertised": "Twitter, word of mouth, relentless badgering"
 }]
