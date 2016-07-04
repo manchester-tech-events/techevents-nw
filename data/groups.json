@@ -346,6 +346,16 @@
 	"website": "http://manchester.meteor.com/",
 	"advertised": "Meetup, Meteor Forum, MadLab, Twitter, Word of mouth, here."
 }, {
+	"name": "NetMCR",
+	"description": "A meetup for people doing, or interested in, Network Engineering in Manchester & the NW",
+	"organiser": "Tom Hill / Thom Seddon",
+	"email": "hello@netmcr.uk",
+	"where": "Upstairs Bar @ 57 Thomas Street, Manchester",
+	"when": "2nd Thursday of the month",
+	"twitter": "@net_mcr",
+	"website": "http://netmcr.uk/",
+	"advertised": "Twitter, word of mouth, relentless badgering"
+}, {
 	"name": "North West Drupal User Group",
 	"description": "A group for Drupal users.",
 	"organiser": "Phillip Norton / Mike Bell / Elliot Ward",
@@ -552,14 +562,4 @@
 	"twitter": "#ManSSUG",
 	"website": "http://www.sqlserverfaq.com",
 	"advertised": "Word of mouth, Web, Twitter"
-}, {
-	"name": "NetMCR",
-	"description": "A meetup for people doing, or interested in, Network Engineering in Manchester & the NW",
-	"organiser": "Tom Hill / Thom Seddon",
-	"email": "tom@ninjabadger.net",
-	"where": "Upstairs Bar @ 57 Thomas Street, Manchester",
-	"when": "2nd Thursday of the month",
-	"twitter": "@net_mcr",
-	"website": "http://netmcr.uk/",
-	"advertised": "Twitter, word of mouth, relentless badgering"
 }]
