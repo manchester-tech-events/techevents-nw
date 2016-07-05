@@ -562,4 +562,14 @@
 	"twitter": "#ManSSUG",
 	"website": "http://www.sqlserverfaq.com",
 	"advertised": "Word of mouth, Web, Twitter"
+}, {
+	"name": "TestBash Manchester",
+	"description": "A single track conference all about software testing",
+	"organiser": "Richard Bradshaw",
+	"email": "RichardBradshaw@gmail.com",
+	"where": "The Lowry",
+	"when": "October 21st 2016",
+	"twitter": "@ministryoftest",
+	"website": "http://www.ministryoftesting.com/training-events/testbash-manchester/",
+	"advertised": "Website, Twitter, etc"
 }]
