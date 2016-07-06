@@ -3,21 +3,32 @@
     <%events.each do |event|%>
       <tr>
         <td>
-          <%if event["website"].nil? %>
-            <%=event["name"] || "&nbsp;"%>
-          <%else%>
-            <a href='<%=event["website"]%>' target='_new'><i class="world icon"></i><%=event["name"] || "&nbsp;"%></a>
+          <i class="circular info icon link" data-content="<%=event["description"] || "&nbsp;"%>" data-variation="very wide"></i>
+        </td>
+        <td>
+          <%=event["name"] || "&nbsp;"%>
+        </td>
+        <td>
+          <%unless event["website"].nil? %>
+            <a href='<%=event["website"]%>' target='_new'><i class="world icon"></i></a>
           <%end%> 
+        </td>
+        <td>
           <%unless event["twitter"].nil? %>
             <a href='http://twitter.com/<%=event["twitter"]%>' target='_new'>
               <i class="blue twitter icon"></i>
             </a>
           <%end%>
         </td>
-        <!-- <td><%=event["description"] || "&nbsp;"%></td> -->
         <td><i class="marker icon"></i><%=event["where"] || "&nbsp;"%></td>
         <td><i class="calendar icon"></i><%=event["when"] || "&nbsp;"%></td>
       </tr>
     <%end%>
   </tbody>
 </table>
+
+<script>
+  $('.circular.icon.link').popup({
+    inline: true
+  });
+</script>
