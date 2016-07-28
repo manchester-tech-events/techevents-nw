@@ -295,7 +295,19 @@
 	"twitter": "@mcrjava",
 	"website": "http://www.meetup.com/ManchesterUK-Java-Community/",
 	"advertised": "Via meetup.com and through twitter @mcrjava and linkedin group"
-}, {
+},
+{
+	"name": "#MancSAS",
+	"description": "Manchester Search, Analytics and Social",
+	"organiser": "Group Effort, TechNW Rep: Anjlee",
+	"email": "",
+	"where": "Varies",
+	"when": "Varies",
+	"twitter": "@MancSAS",
+	"website": "http://mancsas.com/",
+	"advertised": "Twitter, Facebook"
+},
+{
 	"name": "Manchester Tech Nights",
 	"description": "Manchester Tech Nights is a meetup aimed at Manchester's technology community, either the people who are making Manchester's tech scene what it is, or just those who are interested and want to keep up-to-date. We want to find out what's going on across the north west, regardless of language. The night kicks off with a headline talk, followed by a series of shorter lightning talks and then an informal chat between attendees.",
 	"organiser": "Chris Northwood",
@@ -385,7 +397,19 @@
 	"twitter": "@McrTesterGather",
 	"website": "http://www.meetup.com/North-West-Tester-Gathering/",
 	"advertised": "Twitter\nFacebook\nMeet up group\nLinkedIn"
-}, {
+}, 
+{
+	"name": "Northern Soho",
+	"description": "Northern Soho is a relaxed networking event for creatives, artists, developers, photographers, web designers and people interested in working together and making our region even more fabulously creative!",
+	"organiser": "Anjlee",
+	"email": "anjlee@pressedmedia.co.uk",
+	"where": "TBA",
+	"when": "TBA",
+	"twitter": "@NorthernSoho",
+	"website": "http://northernsoho.co.uk/",
+	"advertised": "Twitter, Facebook, MeetUp, Fatsoma, LinkedIn"
+},
+{
 	"name": "NSManchester",
 	"description": "iPhone and Mac developer monthly meetup in Manchester, UK.",
 	"organiser": "Ross Butler",
@@ -572,4 +596,16 @@
 	"twitter": "@ministryoftest",
 	"website": "http://www.ministryoftesting.com/training-events/testbash-manchester/",
 	"advertised": "Website, Twitter, etc"
-}]
+},
+{
+    "name": "WA Digital",
+    "description": "Meetups for a community working within the digital scene - we are studios, agencies, entrepreneurs, investors, freelancers, contractors, graduates and students – comprised of designers, developers, innovators, educators, strategic thinkers, consultants & digital tinkerers. We provide opportunities for speakers. Our speakers are usually home-grown talent, which provides a support outlet for the local community to promote themselves to like-minded professionals. We also have Friday socials every other month, which are held on the last Friday of those months.",
+    "organiser": "Melissa Wood",
+    "email": "info@wadigital.uk",
+    "where": "Warrington",
+    "when": "Monthly - dates vary",
+    "twitter": "@wa_digital",
+    "website": "http://www.wadigital.events",
+    "advertised": "Meetup, Twitter, LinkedIn"
+}
+]
