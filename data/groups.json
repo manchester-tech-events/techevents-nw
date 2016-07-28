@@ -526,6 +526,17 @@
 	"when": "Every other month - next event is 25th June 2015",
 	"twitter": "@shesaysmcr",
 	"website": "\n"
+}, 
+{
+	"name": "Manchester SQL Server/ Data Platform User Group",
+	"description": "A Microsoft Data Platform User Group with a focus on SQL Server and Azure",
+	"organiser": "Chris Testa-O'Neill",
+	"email": "ctesta-oneill@hotmail.co.uk",
+	"where": "Swinton Insurance, Bridgewater House, 5th Floor, Whitworth Street, Manchester",
+	"when": "variable - every 6 weeks",
+	"twitter": "#ManSSUG",
+	"website": "http://www.sqlserverfaq.com",
+	"advertised": "Word of mouth, Web, Twitter"
 }, {
 	"name": "Technology.UG",
 	"description": "An event focusing on new Technology, covering topics such as, AWS, DevOps, Infrastructure, and more",
@@ -536,7 +547,19 @@
 	"twitter": "@TechUG",
 	"website": "http://technology.ug/",
 	"advertised": "On website, Twitter and email"
-}, {
+},
+{
+	"name": "TestBash Manchester",
+	"description": "A single track conference all about software testing",
+	"organiser": "Richard Bradshaw",
+	"email": "RichardBradshaw@gmail.com",
+	"where": "The Lowry",
+	"when": "October 21st 2016",
+	"twitter": "@ministryoftest",
+	"website": "http://www.ministryoftesting.com/training-events/testbash-manchester/",
+	"advertised": "Website, Twitter, etc"
+},
+{
 	"name": "TwitFaced",
 	"description": "Connecting Great Social Business",
 	"organiser": "Simon Calderbank / Michael Di Paola",
@@ -546,7 +569,18 @@
 	"twitter": "@twitfacedevents",
 	"website": "http://www.twitfaced.co.uk",
 	"advertised": "twitter, word of mouth, brand ambassadors/sponsors"
-}, {
+},
+{
+    "name": "WA Digital",
+    "description": "Meetups for a community working within the digital scene - we are studios, agencies, entrepreneurs, investors, freelancers, contractors, graduates and students – comprised of designers, developers, innovators, educators, strategic thinkers, consultants & digital tinkerers. We provide opportunities for speakers. Our speakers are usually home-grown talent, which provides a support outlet for the local community to promote themselves to like-minded professionals. We also have Friday socials every other month, which are held on the last Friday of those months.",
+    "organiser": "Melissa Wood",
+    "email": "info@wadigital.uk",
+    "where": "Warrington",
+    "when": "Monthly - dates vary",
+    "twitter": "@wa_digital",
+    "website": "http://www.wadigital.events",
+    "advertised": "Meetup, Twitter, LinkedIn"
+},{
 	"name": "WordCamp Manchester",
 	"description": "The local WordPress annual gathering spanning everything from our bloggers/ content peopel to our sys admin people and everyone inbetween. All welcomed.",
 	"organiser": "Clair Worthington / Jenny Wong / Mike Little",
@@ -576,36 +610,5 @@
 	"twitter": "@xpmanchester",
 	"website": "http://xpmanchester.wordpress.com",
 	"advertised": "Badly"
-}, {
-	"name": "Manchester SQL Server/Data Platform User Group",
-	"description": "A Microsoft Data Platform User Group with a focus on SQL Server and Azure",
-	"organiser": "Chris Testa-O'Neill",
-	"email": "ctesta-oneill@hotmail.co.uk",
-	"where": "Swinton Insurance, Bridgewater House, 5th Floor, Whitworth Street, Manchester",
-	"when": "variable - every 6 weeks",
-	"twitter": "#ManSSUG",
-	"website": "http://www.sqlserverfaq.com",
-	"advertised": "Word of mouth, Web, Twitter"
-}, {
-	"name": "TestBash Manchester",
-	"description": "A single track conference all about software testing",
-	"organiser": "Richard Bradshaw",
-	"email": "RichardBradshaw@gmail.com",
-	"where": "The Lowry",
-	"when": "October 21st 2016",
-	"twitter": "@ministryoftest",
-	"website": "http://www.ministryoftesting.com/training-events/testbash-manchester/",
-	"advertised": "Website, Twitter, etc"
-},
-{
-    "name": "WA Digital",
-    "description": "Meetups for a community working within the digital scene - we are studios, agencies, entrepreneurs, investors, freelancers, contractors, graduates and students – comprised of designers, developers, innovators, educators, strategic thinkers, consultants & digital tinkerers. We provide opportunities for speakers. Our speakers are usually home-grown talent, which provides a support outlet for the local community to promote themselves to like-minded professionals. We also have Friday socials every other month, which are held on the last Friday of those months.",
-    "organiser": "Melissa Wood",
-    "email": "info@wadigital.uk",
-    "where": "Warrington",
-    "when": "Monthly - dates vary",
-    "twitter": "@wa_digital",
-    "website": "http://www.wadigital.events",
-    "advertised": "Meetup, Twitter, LinkedIn"
 }
 ]
