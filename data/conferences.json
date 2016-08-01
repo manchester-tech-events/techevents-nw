@@ -11,6 +11,17 @@
         "advertised": "Twitter, Facebook, Meetup, Mailers to local tech business & universities, Word of Mouth"
     },
     {
+        "name": "DPM:UK - Digital PM Conference",
+        "description": "DPM:UK is the ideal event for anyone involved in managing projects, people or products; from project manager to account manager, from product owner to technical lead, creative director to managing director. Whatever your role is, you can’t afford to miss this event.",
+        "organiser": "Matt Thornhill",
+        "email": "hello@dpmuk.com",
+        "where": "Comedy Club, Deansgate",
+        "when": "25th and 26th January 2017",
+        "twitter": "@dpmukconf",
+        "website": "http://www.dpmuk.com/",
+        "advertised": "Twitter, Meetups, Manchester Digital, Word of Mouth"
+    },
+    {
         "name": "Dynamic Languages Conference",
         "description": "The DLC is a cross-language event aimed at Open Source Dynamic \nLanguages, we hope to bring together all the languages in an open forum \nto discuss and present the manner in which these languages approach and \nsolve tasks at the cutting edge of development technology.",
         "organiser": "Ian Norton & FLOSS UK",
