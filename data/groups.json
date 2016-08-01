@@ -130,7 +130,19 @@
 	"twitter": "@flossuk",
 	"website": "http://www.flossuk.org/",
 	"advertised": "Facebook, Twitter, Website, Newsletter, Linux print media"
-}, {
+}, 
+{
+	"name": "Freelance Friday",
+      "description": "Coworking session for freelancers or remote workers",
+      "organiser": "Katy Carlisle",
+      "email": "hello@thewheelexists.com",
+      "where": "Ziferblat, 23 Edge Street, Manchester",
+      "when": "Every Friday, 2-5pm",
+      "twitter": "@freelancersmcr",
+      "website": "www.meetup.com/FreelanceFridayMCR/",
+      "advertised": "Meetup, Ziferblat mailings and posters, Twitter"	
+},
+{
 	"name": "GDG Manchester",
 	"description": "Google Developer's Group",
 	"organiser": "Ben Higginbottom",
