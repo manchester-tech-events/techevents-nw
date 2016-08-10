@@ -370,6 +370,16 @@
 	"website": "http://manchester.meteor.com/",
 	"advertised": "Meetup, Meteor Forum, MadLab, Twitter, Word of mouth, here."
 }, {
+	"name": "Microservices Manchester",
+	"description": "Meetup for those interested or involved in the development of microservice based systems",
+	"organiser": "Tristan McCarthy",
+	"email": "tristan.mccarthy@opencredo.com",
+	"where": "Various, Manchester",
+	"when": "Monthly",
+	"twitter": "@micromanchester",
+	"website": "http://www.meetup.com/Microservices-Manchester/",
+	"advertised": "@micromanchester, group emails and via TechNW community"
+}, {
 	"name": "NetMCR",
 	"description": "A meetup for people doing, or interested in, Network Engineering in Manchester & the NW",
 	"organiser": "Tom Hill / Thom Seddon",
