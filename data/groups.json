@@ -622,5 +622,15 @@
 	"twitter": "@xpmanchester",
 	"website": "http://xpmanchester.wordpress.com",
 	"advertised": "Badly"
+}, {
+	"name": "ORG Manchester",
+	"description": "The local Manchester branch of the Open Rights Group.",
+	"organiser": "Tom Chiverton",
+	"email": "manchester@openrightsgroup.org",
+	"where": "",
+	"when": "",
+	"twitter": "@orgmanchester",
+	"website": "https://manchester.openrightsgroup.org",
+	"advertised": "Many places"
 }
 ]
