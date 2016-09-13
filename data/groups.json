@@ -267,7 +267,19 @@
 	"twitter": "@livlug",
 	"website": "http://livlug.org.uk/",
 	"advertised": "Website, twitter, facebook & mailing lists"
-}, {
+},
+{
+	"name": "Liverpool Girl Geeks",
+	"description": "We are on a mission to decrease the gender imbalance in the tech sector through events, workshops and inspiration",
+	"organiser": "Liverpool Girl Geeks",
+	"email": "hello@liverpoolgirlgeeks.co.uk",
+	"where": "Liverpool",
+	"when": "First Monday of every month at 6pm",
+	"twitter": "@lpoolgirlgeeks",
+	"website": "www.liverpoolgirlgeeks.co.uk",
+	"advertised": "online"
+},
+{
 	"name": "Manchester Codejo",
 	"description": "A place to practice and perfect your coding skills by performing katas",
 	"organiser": "Iain Mitchell",
@@ -480,7 +492,19 @@
 	"twitter": "@opendatamcr",
 	"website": "http://opendatamanchester.org.uk/",
 	"advertised": "Website, twitter, mailing-list"
-}, {
+}, 
+{
+	"name": "ORG Manchester",
+	"description": "The local Manchester branch of the Open Rights Group.",
+	"organiser": "Tom Chiverton",
+	"email": "manchester@openrightsgroup.org",
+	"where": "",
+	"when": "",
+	"twitter": "@orgmanchester",
+	"website": "https://manchester.openrightsgroup.org",
+	"advertised": "Many places"
+},
+{
 	"name": "OWASP Manchester",
 	"description": "Web application security meet. Security pro / software dev / newbie friendly.\nLocal chapter of OWASP.org",
 	"organiser": "OWASP MCR Team / \nStuart Walker",
@@ -632,15 +656,5 @@
 	"twitter": "@xpmanchester",
 	"website": "http://xpmanchester.wordpress.com",
 	"advertised": "Badly"
-}, {
-	"name": "ORG Manchester",
-	"description": "The local Manchester branch of the Open Rights Group.",
-	"organiser": "Tom Chiverton",
-	"email": "manchester@openrightsgroup.org",
-	"where": "",
-	"when": "",
-	"twitter": "@orgmanchester",
-	"website": "https://manchester.openrightsgroup.org",
-	"advertised": "Many places"
 }
 ]
