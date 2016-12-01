@@ -656,5 +656,15 @@
 	"twitter": "@xpmanchester",
 	"website": "http://xpmanchester.wordpress.com",
 	"advertised": "Badly"
+}, {
+	"name": "Manchester BI and Data Meet Up",
+	"description": "This is a group for people involved in any aspect of Business Intelligence/ Big Data. I am starting this group as I couldn't really see anything on the subject in the Manchester area. I am looking forward to exploring this vast and wide subject with local industry experts.",
+	"organiser": "Nick Latocha",
+	"email": "Nick.latocha@gmail.com",
+	"where": "Spaceport X, 24-26 Lever Street, Manchester, M1 1DZ, Manchester",
+	"when": "Monthly",
+	"twitter": "@Mcr_BI_and_Data",
+	"website": "http://www.manchester-bi-and-data.co.uk/",
+	"advertised": "Twitter, Meetup.com"
 }
 ]
