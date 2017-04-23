@@ -320,7 +320,7 @@
 	"website": "http://www.meetup.com/ManchesterUK-Java-Community/",
 	"advertised": "Via meetup.com and through twitter @mcrjava and linkedin group"
 },
-	"name": "Manchester Machine Learning - MancML",
+{	"name": "Manchester Machine Learning - MancML",
 	"description": "An informal coming together of the brightest minds in the fields of Data Science, Machine Learning, Artificial Intelligence and Deep Learning in the North West.",
 	"organiser": "Erik Arne Mathiesen, Liam Wilson, Colin Bradley",
 	"email": "mancml@mail.com",
