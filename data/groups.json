@@ -130,8 +130,7 @@
 	"twitter": "@flossuk",
 	"website": "http://www.flossuk.org/",
 	"advertised": "Facebook, Twitter, Website, Newsletter, Linux print media"
-}, 
-{
+}, {
 	"name": "Freelance Friday",
       "description": "Coworking session for freelancers or remote workers",
       "organiser": "Katy Carlisle",
@@ -141,8 +140,7 @@
       "twitter": "@freelancersmcr",
       "website": "www.meetup.com/FreelanceFridayMCR/",
       "advertised": "Meetup, Ziferblat mailings and posters, Twitter"	
-},
-{
+}, {
 	"name": "GDG Manchester",
 	"description": "Google Developer's Group",
 	"organiser": "Ben Higginbottom",
@@ -267,8 +265,7 @@
 	"twitter": "@livlug",
 	"website": "http://livlug.org.uk/",
 	"advertised": "Website, twitter, facebook & mailing lists"
-},
-{
+}, {
 	"name": "Liverpool Girl Geeks",
 	"description": "We are on a mission to decrease the gender imbalance in the tech sector through events, workshops and inspiration",
 	"organiser": "Liverpool Girl Geeks",
@@ -278,8 +275,7 @@
 	"twitter": "@lpoolgirlgeeks",
 	"website": "www.liverpoolgirlgeeks.co.uk",
 	"advertised": "online"
-},
-{
+}, {
 	"name": "Manchester Codejo",
 	"description": "A place to practice and perfect your coding skills by performing katas",
 	"organiser": "Iain Mitchell",
@@ -319,8 +315,7 @@
 	"twitter": "@mcrjava",
 	"website": "http://www.meetup.com/ManchesterUK-Java-Community/",
 	"advertised": "Via meetup.com and through twitter @mcrjava and linkedin group"
-},
-{	"name": "Manchester Machine Learning - MancML",
+}, {	"name": "Manchester Machine Learning - MancML",
 	"description": "An informal coming together of the brightest minds in the fields of Data Science, Machine Learning, Artificial Intelligence and Deep Learning in the North West.",
 	"organiser": "Erik Arne Mathiesen, Liam Wilson, Colin Bradley",
 	"email": "mancml@mail.com",
@@ -329,8 +324,7 @@
 	"twitter": "@Manc_ML",
 	"website": "https://www.mancml.io/",
 	"advertised": "Through twitter @Manc_ML"
-},
-{
+}, {
 	"name": "#MancSAS",
 	"description": "Manchester Search, Analytics and Social",
 	"organiser": "Group Effort, TechNW Rep: Anjlee",
@@ -340,8 +334,7 @@
 	"twitter": "@MancSAS",
 	"website": "http://mancsas.com/",
 	"advertised": "Twitter, Facebook"
-},
-{
+}, {
 	"name": "Manchester Tech Nights",
 	"description": "Manchester Tech Nights is a meetup aimed at Manchester's technology community, either the people who are making Manchester's tech scene what it is, or just those who are interested and want to keep up-to-date. We want to find out what's going on across the north west, regardless of language. The night kicks off with a headline talk, followed by a series of shorter lightning talks and then an informal chat between attendees.",
 	"organiser": "Chris Northwood",
@@ -441,8 +434,7 @@
 	"twitter": "@McrTesterGather",
 	"website": "http://www.meetup.com/North-West-Tester-Gathering/",
 	"advertised": "Twitter\nFacebook\nMeet up group\nLinkedIn"
-}, 
-{
+}, {
 	"name": "Northern Soho",
 	"description": "Northern Soho is a relaxed networking event for creatives, artists, developers, photographers, web designers and people interested in working together and making our region even more fabulously creative!",
 	"organiser": "Anjlee",
@@ -452,8 +444,7 @@
 	"twitter": "@NorthernSoho",
 	"website": "http://northernsoho.co.uk/",
 	"advertised": "Twitter, Facebook, MeetUp, Fatsoma, LinkedIn"
-},
-{
+}, {
 	"name": "NSManchester",
 	"description": "iPhone and Mac developer monthly meetup in Manchester, UK.",
 	"organiser": "Ross Butler",
@@ -502,8 +493,7 @@
 	"twitter": "@opendatamcr",
 	"website": "http://opendatamanchester.org.uk/",
 	"advertised": "Website, twitter, mailing-list"
-}, 
-{
+}, {
 	"name": "ORG Manchester",
 	"description": "The local Manchester branch of the Open Rights Group.",
 	"organiser": "Tom Chiverton",
@@ -513,8 +503,7 @@
 	"twitter": "@orgmanchester",
 	"website": "https://manchester.openrightsgroup.org",
 	"advertised": "Many places"
-},
-{
+}, {
 	"name": "OWASP Manchester",
 	"description": "Web application security meet. Security pro / software dev / newbie friendly.\nLocal chapter of OWASP.org",
 	"organiser": "OWASP MCR Team / \nStuart Walker",
@@ -582,8 +571,7 @@
 	"when": "Every other month - next event is 25th June 2015",
 	"twitter": "@shesaysmcr",
 	"website": "\n"
-}, 
-{
+}, {
 	"name": "Manchester SQL Server/ Data Platform User Group",
 	"description": "A Microsoft Data Platform User Group with a focus on SQL Server and Azure",
 	"organiser": "Committee",
@@ -603,8 +591,7 @@
 	"twitter": "@TechUG",
 	"website": "http://technology.ug/",
 	"advertised": "On website, Twitter and email"
-},
-{
+}, {
 	"name": "TestBash Manchester",
 	"description": "A single track conference all about software testing",
 	"organiser": "Richard Bradshaw",
@@ -614,8 +601,7 @@
 	"twitter": "@ministryoftest",
 	"website": "http://www.ministryoftesting.com/training-events/testbash-manchester/",
 	"advertised": "Website, Twitter, etc"
-},
-{
+}, {
 	"name": "TwitFaced",
 	"description": "Connecting Great Social Business",
 	"organiser": "Simon Calderbank / Michael Di Paola",
@@ -625,8 +611,7 @@
 	"twitter": "@twitfacedevents",
 	"website": "http://www.twitfaced.co.uk",
 	"advertised": "twitter, word of mouth, brand ambassadors/sponsors"
-},
-{
+}, {
     "name": "WA Digital",
     "description": "Meetups for a community working within the digital scene - we are studios, agencies, entrepreneurs, investors, freelancers, contractors, graduates and students – comprised of designers, developers, innovators, educators, strategic thinkers, consultants & digital tinkerers. We provide opportunities for speakers. Our speakers are usually home-grown talent, which provides a support outlet for the local community to promote themselves to like-minded professionals. We also have Friday socials every other month, which are held on the last Friday of those months.",
     "organiser": "Melissa Wood",
@@ -636,7 +621,7 @@
     "twitter": "@wa_digital",
     "website": "http://www.wadigital.events",
     "advertised": "Meetup, Twitter, LinkedIn"
-},{
+}, {
 	"name": "WordCamp Manchester",
 	"description": "The local WordPress annual gathering spanning everything from our bloggers/ content peopel to our sys admin people and everyone inbetween. All welcomed.",
 	"organiser": "Clair Worthington / Jenny Wong / Mike Little",
