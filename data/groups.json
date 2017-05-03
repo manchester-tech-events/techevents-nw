@@ -661,5 +661,15 @@
 	"twitter": "@Mcr_BI_and_Data",
 	"website": "http://www.manchester-bi-and-data.co.uk/",
 	"advertised": "Twitter, Meetup.com"
+}, {
+	"name": "ScouseFP",
+	"description": "Meet other local programmers interested in Functional Programming, Lisp, concurrent programming and anything else we can think of that might be related!",
+	"organiser": "Claudia Doppioslash, Kyle Grierson",
+	"email": "claudia.doppioslash@gmail.com",
+	"where": "DoES Liverpool, Unit 3, Floor 4, Gostins Building, 32-36 Hanover Street, L1 4LN, Liverpool",
+	"when": "Monthly",
+	"twitter": "@ScouseFP",
+	"website": "https://www.meetup.com/ScouseFP/",
+	"advertised": "Twitter, Meetup.com"
 }
 ]
