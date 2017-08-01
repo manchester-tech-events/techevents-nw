@@ -435,6 +435,16 @@
 	"website": "http://www.meetup.com/North-West-Tester-Gathering/",
 	"advertised": "Twitter\nFacebook\nMeet up group\nLinkedIn"
 }, {
+	"name": "Northcoders",
+	"description": "Coding bootcamp, free coding taster classes, beginners' classes and more",
+	"organiser": "Harriet Ryder",
+	"email": "harriet@northcoders.com",
+	"where": "Federation House",
+	"when": "Varies",
+	"twitter": "@northcoders",
+	"website": "https://northcoders.com/",
+	"advertised": "Twitter, Facebook, Instagram"
+}, {
 	"name": "Northern Soho",
 	"description": "Northern Soho is a relaxed networking event for creatives, artists, developers, photographers, web designers and people interested in working together and making our region even more fabulously creative!",
 	"organiser": "Anjlee",
