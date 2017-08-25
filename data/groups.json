@@ -354,7 +354,19 @@
 	"twitter": "@mwug",
 	"website": "https://mwug.uk",
 	"advertised": "Twitter, Meetup.com, Google Group/mailing list"
-}, {
+},
+ {
+ +	"name": "Manchester Xamarin User Group (McrXUG)",
+ +	"description": "A user group for anyone interested in the .Net Mobile Development Tool Xamarin",
+ +	"organiser": "Luce Carter",
+ +	"email": "luce@lucyscarter.co.uk",
+ +	"where": "Accelerate Places",
+ +	"when": "TBC - Hopefully quarterly"
+ +	"twitter": "@mcrxug",
+ +	"website": "https://www.meetup.com/Manchester-Xamarin-User-Group/",
+ +	"advertised:" "Twitter and the Meetup.com"
+ +},  
+ {
 	"name": "MancJS",
 	"description": "Meetup for Javascript developers. Talks and workshops.",
 	"organiser": "Martin Rue",
