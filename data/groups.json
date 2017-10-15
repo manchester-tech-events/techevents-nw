@@ -713,6 +713,16 @@
 	"twitter": "@neo4j",
 	"website": "https://www.meetup.com/Neo4j-Manchester/",
 	"advertised": "Twitter, Meetup.com"
+}, {
+	"name": "Street Support Network #EndHomelessnessMCR Raising Bee",
+	"description": "For tech folk to come along and help us with our mission to end homelessness in Manchester and beyond.",
+	"organiser": "Viv Slack",
+	"email": "viv@streetsupport.net",
+	"where": "Code Computerlove Ltd, Sevendale House, Dale St, Manchester, M1 1JB",
+	"when": "Monthly",
+	"twitter": "@streetsupportuk",
+	"website": "https://www.streetsupport.net/",
+	"advertised": "Twitter, Eventbrite.com"
 },{
 	"name": "codebar Manchester",
 	"description": "Our goal is to enable underrepresented people to learn programming in a safe and collaborative environment and expand their career opportunities. To achieve this we run free regular workshops, regular one-off events and try to create opportunities for our students making technology and coding more accessible.",
