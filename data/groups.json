@@ -19,6 +19,16 @@
 	"website": "http://www.meetup.com/AWS-User-Group-North/",
 	"advertised": "Meetup, Twitter, LinkedIn etc"
 }, {
+	"name": "Manchester BI and Data Meet Up",
+	"description": "This is a group for people involved in any aspect of Business Intelligence/ Big Data. I am starting this group as I couldn't really see anything on the subject in the Manchester area. I am looking forward to exploring this vast and wide subject with local industry experts.",
+	"organiser": "Nick Latocha",
+	"email": "Nick.latocha@gmail.com",
+	"where": "Spaceport X, 24-26 Lever Street, Manchester, M1 1DZ, Manchester",
+	"when": "Monthly",
+	"twitter": "@Mcr_BI_and_Data",
+	"website": "http://www.manchester-bi-and-data.co.uk/",
+	"advertised": "Twitter, Meetup.com"
+}, {
 	"name": "codebar Manchester",
 	"description": "Our goal is to enable underrepresented people to learn programming in a safe and collaborative environment and expand their career opportunities. To achieve this we run free regular workshops, regular one-off events and try to create opportunities for our students making technology and coding more accessible.",
 	"organiser": "Anna Holland Smith, Raluca Puichilita, Sam Phillips",
@@ -415,6 +425,16 @@
 	"twitter": "@micromanchester",
 	"website": "http://www.meetup.com/Microservices-Manchester/",
 	"advertised": "@micromanchester, group emails and via TechNW community"
+},{
+	"name": "Neo4j Manchester",
+	"description": "For people interested in graphs and Neo4j. Come and learn about the most popular graph database of today and why graphs are great to store your data and make sense of it!",
+	"organiser": "Mark Needham",
+	"email": "m.h.needham@gmail.com",
+	"where": "ThoughtWorks Manchester, 26th Floor City Tower, Piccadilly Plaza Manchester, M1 4BT, Manchester",
+	"when": "Quarterly",
+	"twitter": "@neo4j",
+	"website": "https://www.meetup.com/Neo4j-Manchester/",
+	"advertised": "Twitter, Meetup.com"
 }, {
 	"name": "NetMCR",
 	"description": "A meetup for people doing, or interested in, Network Engineering in Manchester & the NW",
@@ -613,6 +633,16 @@
 	"twitter": "@shesaysmcr",
 	"website": "\n"
 }, {
+	"name": "Street Support Network #EndHomelessnessMCR Raising Bee",
+	"description": "For tech folk to come along and help us with our mission to end homelessness in Manchester and beyond.",
+	"organiser": "Viv Slack",
+	"email": "viv@streetsupport.net",
+	"where": "Code Computerlove Ltd, Sevendale House, Dale St, Manchester, M1 1JB",
+	"when": "Monthly",
+	"twitter": "@streetsupportuk",
+	"website": "https://www.streetsupport.net/",
+	"advertised": "Twitter, Eventbrite.com"
+}, {
 	"name": "Manchester SQL Server/ Data Platform User Group",
 	"description": "A Microsoft Data Platform User Group with a focus on SQL Server and Azure",
 	"organiser": "Committee",
@@ -712,35 +742,5 @@
 	"twitter": "@xxplusdatamcr",
 	"website": "https://www.meetup.com/XX-Data-MCR",
 	"advertised": "via Meetup, twitter, linkedin, facebook, word of mouth"
-}, {
-	"name": "Manchester BI and Data Meet Up",
-	"description": "This is a group for people involved in any aspect of Business Intelligence/ Big Data. I am starting this group as I couldn't really see anything on the subject in the Manchester area. I am looking forward to exploring this vast and wide subject with local industry experts.",
-	"organiser": "Nick Latocha",
-	"email": "Nick.latocha@gmail.com",
-	"where": "Spaceport X, 24-26 Lever Street, Manchester, M1 1DZ, Manchester",
-	"when": "Monthly",
-	"twitter": "@Mcr_BI_and_Data",
-	"website": "http://www.manchester-bi-and-data.co.uk/",
-	"advertised": "Twitter, Meetup.com"
-}, {
-	"name": "Neo4j Manchester",
-	"description": "For people interested in graphs and Neo4j. Come and learn about the most popular graph database of today and why graphs are great to store your data and make sense of it!",
-	"organiser": "Mark Needham",
-	"email": "m.h.needham@gmail.com",
-	"where": "ThoughtWorks Manchester, 26th Floor City Tower, Piccadilly Plaza Manchester, M1 4BT, Manchester",
-	"when": "Quarterly",
-	"twitter": "@neo4j",
-	"website": "https://www.meetup.com/Neo4j-Manchester/",
-	"advertised": "Twitter, Meetup.com"
-}, {
-	"name": "Street Support Network #EndHomelessnessMCR Raising Bee",
-	"description": "For tech folk to come along and help us with our mission to end homelessness in Manchester and beyond.",
-	"organiser": "Viv Slack",
-	"email": "viv@streetsupport.net",
-	"where": "Code Computerlove Ltd, Sevendale House, Dale St, Manchester, M1 1JB",
-	"when": "Monthly",
-	"twitter": "@streetsupportuk",
-	"website": "https://www.streetsupport.net/",
-	"advertised": "Twitter, Eventbrite.com"
 }
 ]
