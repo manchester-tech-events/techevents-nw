@@ -713,5 +713,25 @@
 	"twitter": "@neo4j",
 	"website": "https://www.meetup.com/Neo4j-Manchester/",
 	"advertised": "Twitter, Meetup.com"
+},{
+	"name": "codebar Manchester",
+	"description": "Our goal is to enable underrepresented people to learn programming in a safe and collaborative environment and expand their career opportunities. To achieve this we run free regular workshops, regular one-off events and try to create opportunities for our students making technology and coding more accessible.",
+	"organiser": "Anna Holland Smith, Raluca Puichilita, Sam Phillips",
+	"email": "manchester@codebar.io",
+	"where": "Various",
+	"when": "monthly",
+	"twitter": "@codebarManc",
+	"website": "https://codebar.io/manchester",
+	"advertised": "Twitter, codebar side"
+}, {
+	"name": "Code First: Girls Manchester",
+	"description": "Code First: Girls works with companies and with men and women directly, to help increase the number of women in tech",
+	"organiser": "Code First: Girls, ThoughtWorks & Sam Phillips",
+	"email": "info@codefirstgirls.org.uk",
+	"where": "ThoughtWorks, Fourth Floor, Federation House, 2 Federation St, M4 4BF",
+	"when": "Two 8 week courses a year: Autumn/Winter and Spring/Summer",
+	"twitter": "@CodeFirstGirls",
+	"website": "http://www.codefirstgirls.org.uk/",
+	"advertised": "Twitter, Facebook"
 }
 ]
