@@ -19,14 +19,25 @@
 	"website": "http://www.meetup.com/AWS-User-Group-North/",
 	"advertised": "Meetup, Twitter, LinkedIn etc"
 }, {
-	"name": "Craft CMS Manchester",
-	"description": "Come along for chats about Craft CMS and all things web. Whether you're using Craft already or thinking about getting into it, it'd be great to meet you.",
-	"organiser": "Club Studio",
-	"email": "hello@clubstudio.co.uk",
-	"where": "Rise Manchester, Deansgate",
-	"when": "First Thursday of every other month",
-	"twitter": "@clubstudioltd",
-	"website": "http://www.meetup.com/craftcmsmanchester/"
+	"name": "codebar Manchester",
+	"description": "Our goal is to enable underrepresented people to learn programming in a safe and collaborative environment and expand their career opportunities. To achieve this we run free regular workshops, regular one-off events and try to create opportunities for our students making technology and coding more accessible.",
+	"organiser": "Anna Holland Smith, Raluca Puichilita, Sam Phillips",
+	"email": "manchester@codebar.io",
+	"where": "Various",
+	"when": "monthly",
+	"twitter": "@codebarManc",
+	"website": "https://codebar.io/manchester",
+	"advertised": "Twitter, codebar side"
+}, {
+	"name": "Code First: Girls Manchester",
+	"description": "Code First: Girls works with companies and with men and women directly, to help increase the number of women in tech",
+	"organiser": "Code First: Girls, ThoughtWorks & Sam Phillips",
+	"email": "info@codefirstgirls.org.uk",
+	"where": "ThoughtWorks, Fourth Floor, Federation House, 2 Federation St, M4 4BF",
+	"when": "Two 8 week courses a year: Autumn/Winter and Spring/Summer",
+	"twitter": "@CodeFirstGirls",
+	"website": "http://www.codefirstgirls.org.uk/",
+	"advertised": "Twitter, Facebook"
 }, {
 	"name": "CoderDojo",
 	"description": "Manchester CoderDojo is a volunteer-led community group for young people learning to code and make things.",
@@ -35,6 +46,15 @@
 	"when": "one Sunday a month",
 	"twitter": "@mcrcoderdojo",
 	"website": "http://mcrcoderdojo.org.uk/"
+}, {
+	"name": "Craft CMS Manchester",
+	"description": "Come along for chats about Craft CMS and all things web. Whether you're using Craft already or thinking about getting into it, it'd be great to meet you.",
+	"organiser": "Club Studio",
+	"email": "hello@clubstudio.co.uk",
+	"where": "Rise Manchester, Deansgate",
+	"when": "First Thursday of every other month",
+	"twitter": "@clubstudioltd",
+	"website": "http://www.meetup.com/craftcmsmanchester/"
 }, {
 	"name": "CurryBeer",
 	"description": "The traditional Currybeer events are held on the first Friday of each month, unless that clashes with a public holiday (e.g. New Year's Day). Alternative cuisines are usually held on the third Friday of the month, chosen from a variety of venues.",
@@ -354,18 +374,7 @@
 	"twitter": "@mwug",
 	"website": "https://mwug.uk",
 	"advertised": "Twitter, Meetup.com, Google Group/mailing list"
-},
- {
- +	"name": "Manchester Xamarin User Group (McrXUG)",
- +	"description": "A user group for anyone interested in the .Net Mobile Development Tool Xamarin",
- +	"organiser": "Luce Carter",
- +	"email": "luce@lucyscarter.co.uk",
- +	"where": "Accelerate Places",
- +	"when": "TBC - Hopefully quarterly",
- +	"twitter": "@mcrxug",
- +	"website": "https://www.meetup.com/Manchester-Xamarin-User-Group/",
- +	"advertised:" "Twitter and the Meetup.com"
- +},  
+},  
  {
 	"name": "MancJS",
 	"description": "Meetup for Javascript developers. Talks and workshops.",
@@ -585,6 +594,16 @@
 	"website": "http://www.meetup.com/scala-developers/",
 	"advertised": "Meetup, Twitter, Talking to real people etc"
 }, {
+	"name": "ScouseFP",
+	"description": "Meet other local programmers interested in Functional Programming, Lisp, concurrent programming and anything else we can think of that might be related!",
+	"organiser": "Claudia Doppioslash, Kyle Grierson",
+	"email": "claudia.doppioslash@gmail.com",
+	"where": "DoES Liverpool, Unit 3, Floor 4, Gostins Building, 32-36 Hanover Street, L1 4LN, Liverpool",
+	"when": "Monthly",
+	"twitter": "@ScouseFP",
+	"website": "https://www.meetup.com/ScouseFP/",
+	"advertised": "Twitter, Meetup.com"
+}, {
 	"name": "SheSays",
 	"description": "helps women in digital & creative industries further their careers through meet-ups, mentoring and inspiring events.",
 	"organiser": "Gabi Iskandar\nVimla Appadoo & others",
@@ -664,6 +683,16 @@
 	"website": "http://wpug.uk",
 	"advertised": "Twitter, Meetup.com, word of mouth, Facebook"
 }, {
+ 	"name": "Manchester Xamarin User Group (McrXUG)",
+ 	"description": "A user group for anyone interested in the .Net Mobile Development Tool Xamarin",
+ 	"organiser": "Luce Carter",
+ 	"email": "luce@lucyscarter.co.uk",
+ 	"where": "Accelerate Places",
+ 	"when": "TBC - Hopefully quarterly",
+ 	"twitter": "@mcrxug",
+ 	"website": "https://www.meetup.com/Manchester-Xamarin-User-Group/",
+ 	"advertised:" "Twitter and the Meetup.com"
+ }, {
 	"name": "XPManchester",
 	"description": "Xp Manchester is a language agnostic software development user group with the prime directive of making software developers work smarter.",
 	"organiser": "Mark Kirschstein",
@@ -694,16 +723,6 @@
 	"website": "http://www.manchester-bi-and-data.co.uk/",
 	"advertised": "Twitter, Meetup.com"
 }, {
-	"name": "ScouseFP",
-	"description": "Meet other local programmers interested in Functional Programming, Lisp, concurrent programming and anything else we can think of that might be related!",
-	"organiser": "Claudia Doppioslash, Kyle Grierson",
-	"email": "claudia.doppioslash@gmail.com",
-	"where": "DoES Liverpool, Unit 3, Floor 4, Gostins Building, 32-36 Hanover Street, L1 4LN, Liverpool",
-	"when": "Monthly",
-	"twitter": "@ScouseFP",
-	"website": "https://www.meetup.com/ScouseFP/",
-	"advertised": "Twitter, Meetup.com"
-}, {
 	"name": "Neo4j Manchester",
 	"description": "For people interested in graphs and Neo4j. Come and learn about the most popular graph database of today and why graphs are great to store your data and make sense of it!",
 	"organiser": "Mark Needham",
@@ -723,25 +742,5 @@
 	"twitter": "@streetsupportuk",
 	"website": "https://www.streetsupport.net/",
 	"advertised": "Twitter, Eventbrite.com"
-},{
-	"name": "codebar Manchester",
-	"description": "Our goal is to enable underrepresented people to learn programming in a safe and collaborative environment and expand their career opportunities. To achieve this we run free regular workshops, regular one-off events and try to create opportunities for our students making technology and coding more accessible.",
-	"organiser": "Anna Holland Smith, Raluca Puichilita, Sam Phillips",
-	"email": "manchester@codebar.io",
-	"where": "Various",
-	"when": "monthly",
-	"twitter": "@codebarManc",
-	"website": "https://codebar.io/manchester",
-	"advertised": "Twitter, codebar side"
-}, {
-	"name": "Code First: Girls Manchester",
-	"description": "Code First: Girls works with companies and with men and women directly, to help increase the number of women in tech",
-	"organiser": "Code First: Girls, ThoughtWorks & Sam Phillips",
-	"email": "info@codefirstgirls.org.uk",
-	"where": "ThoughtWorks, Fourth Floor, Federation House, 2 Federation St, M4 4BF",
-	"when": "Two 8 week courses a year: Autumn/Winter and Spring/Summer",
-	"twitter": "@CodeFirstGirls",
-	"website": "http://www.codefirstgirls.org.uk/",
-	"advertised": "Twitter, Facebook"
 }
 ]
