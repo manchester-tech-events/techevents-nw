@@ -218,6 +218,16 @@
 	"website": "http://hackernest.com",
 	"advertised": "via Meetup, twitter, linkedin, facebook, word of mouth"
 }, {
+	"name": "HER+Data MCR",
+	"description": "HER+Data MCR aims to bring together women who work with or love data - to support one another, share experiences and talk data - big or small!",
+	"organiser": "Rachael Ainsworth",
+	"email": "rainswor@gmail.com",
+	"where": "Manchester",
+	"when": "Monthly meetings, typically last Thursday of the month.",
+	"twitter": "@herplusdatamcr",
+	"website": "https://www.meetup.com/HER-Data-MCR",
+	"advertised": "via Meetup, twitter, linkedin, facebook, word of mouth"
+}, {
 	"name": "Ladies that UX MCR",
 	"description": "Fancy meeting other women for a good old natter about UX and life in general? Then Ladies that UX is for you. Not got UX in your job title? No problem. If you’re inquisitive, enthusiastic and interested in making the world a better place for users, you’re one of us.",
 	"organiser": "Lizzie Dyson",
@@ -732,15 +742,5 @@
 	"twitter": "@xpmanchester",
 	"website": "http://xpmanchester.wordpress.com",
 	"advertised": "Badly"
-}, {
-	"name": "XX+Data MCR",
-	"description": "XX+Data MCR aims to bring together women who work with or love data - to support one another, share experiences and talk data - big or small!",
-	"organiser": "Rachael Ainsworth",
-	"email": "rainswor@gmail.com",
-	"where": "Manchester",
-	"when": "Monthly meetings, typically last Thursday of the month.",
-	"twitter": "@xxplusdatamcr",
-	"website": "https://www.meetup.com/XX-Data-MCR",
-	"advertised": "via Meetup, twitter, linkedin, facebook, word of mouth"
 }
 ]
