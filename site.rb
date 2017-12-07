@@ -11,20 +11,6 @@ class App < Sinatra::Application
 		super(app)
 	end
 
-	# register Sinatra::AssetPack
-	# assets do
-	# 	js :application, [
-	# 		'js/*.js'
-	# 	]
-
-	# 	css :application, [
-	# 		'css/*.css'
-	# 	]
-
-	# 	js_compression :jsmin
-	# 	css_compression :sass
-	# end
-
 	# 404 Error!
 	not_found do
 		status 404
