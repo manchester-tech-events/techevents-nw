@@ -1,6 +1,6 @@
 machine:
   ruby:
-    version: 2.2.0
+    version: 2.4.1
 test:
     override:
       - echo No tests. What can go wrong
