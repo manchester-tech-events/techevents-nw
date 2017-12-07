@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>Tech Events - North West</title>
+      <meta name="description" content="Tech Events in and around the Northwest. A collection of groups, conferences and a calendar. Created and maintained by the event organisers.">
+      <meta name=viewport content="width=device-width, initial-scale=1">
+      <meta name="mobile-web-app-capable" content="yes">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.2/semantic.min.css">
+      <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="/css/sweet-alert.css">
+      
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+      <script type="text/javascript" src="js/emailvalidate.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.2/semantic.min.js"></script>
+      <script type="text/javascript" src="/js/sweet-alert.js"></script>
+
+      <!-- endbuild -->
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class='container'>
+      <div class='main'>
+        <div class="ui huge message">
+            <h1 class="ui huge header">North West Tech Community</h1>
+            <p>
+              <a class="item" href="http://twitter.com/technwuk">
+                <i class="twitter icon"></i>@technwuk
+              </a>
+            </p>
+        </div>
+        <%=yield%>
+      </div>
+    </div>
+    
+    <script>
+    $('.standard.test.modal').modal('show');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-63203141-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  </body>
+</html>
