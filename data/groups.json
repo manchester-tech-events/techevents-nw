@@ -19,6 +19,16 @@
 	"website": "http://www.meetup.com/AWS-User-Group-North/",
 	"advertised": "Meetup, Twitter, LinkedIn etc"
 }, {
+	"name": "Blochain Manchester",
+	"description": "All thing Blockchain. Love from Manchester.",
+	"organiser": "Andy Gray & James Morgan",
+	"email": "hello@blockchainmanchester.couk",
+	"where": "Manchester",
+	"when": "One a Month",
+	"twitter": "@blockchain_manc",
+	"website": "https://www.blockchainmanchester.co.uk",
+	"advertised": "Twitter, Meetup.com, Medium, LinkedIn"
+}, {
 	"name": "MancDB - Manchester Data & BI",
 	"description": "This group is for Data Professionals in and around Manchester who are interested in learning more about Business Intelligence, Data and Visualisation. We hope to have speakers from different backgrounds sharing their knowledge on these subjects. ",
 	"organiser": "Nick Latocha",
