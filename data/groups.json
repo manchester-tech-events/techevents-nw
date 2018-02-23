@@ -762,5 +762,15 @@
 	"twitter": "@xpmanchester",
 	"website": "http://xpmanchester.wordpress.com",
 	"advertised": "Badly"
+}, {
+	"name": "Manchester Data Science",
+	"description": "A casual pub meetup for Data Scientists or those interested in Data Science",
+	"organiser": "John Carney and Joseph Allen",
+	"email": "data.science.manchester@gmail.com",
+	"where": "Common Bar",
+	"when": "Second Monday of the month",
+	"twitter": "@manchester_data",
+	"website": "https://twitter.com/manchester_data",
+	"advertised": "Twitter, Reddit, LinkedIn"
 }
 ]
