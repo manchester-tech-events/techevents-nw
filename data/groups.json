@@ -161,6 +161,15 @@
 	"twitter": "@ElasticManc",
 	"website": "http://www.meetup.com/Manchester-Elastic-Fantastics/"
 }, {
+	"name": "Elm Manchester",
+	"description": "A monthly meet up for anyone interested in Elm. We follow a hack night format to help people get started.",
+	"organiser": "Michael Jones",
+	"email": "m.pricejones@gmail.com",
+	"where": "Varies",
+	"when": "Every Month",
+	"twitter": "@elm_manchester",
+	"website": "http://www.meetup.com/elm-manchester/"
+}, {
 	"name": "FLOSS UK",
 	"description": "FLOSS UK, the UK open source advocacy group",
 	"organiser": "Ian Norton",
