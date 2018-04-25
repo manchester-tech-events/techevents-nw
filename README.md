@@ -50,7 +50,7 @@ just
 ```
 rake git m='commit message'
 ```
-And CircleCI will deploy your changes to heroku and be live on technw.uk within a couple of minutes
+And GitHub will deploy your changes to heroku and be live on technw.uk within a couple of minutes
 
 
 # How to start your own!
