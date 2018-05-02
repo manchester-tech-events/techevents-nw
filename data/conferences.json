@@ -89,14 +89,14 @@
     },
     {
         "name": "OggCamp",
-        "description": "The largest annual UK conference on all things Open Source. Running since 2009 the event attracts around 500 attendees from all over the world on some the leading speakers/experts in FOSS. Previous sponsors include Google, Canonical (Ubuntu), Bytemark UK, Linux Format Magazine, Linux Voice Magazine and many more.\n",
-        "organiser": "Dan Lynch",
-        "email": "dan@danlynch.org",
-        "where": "Liverpool mostly but has also been held in Wolverhampton, Oxford and Farnborough.",
-        "when": "Annually, usually in October. 2015 date to be confirmed.",
+        "description": "OggCamp is an unconference celebrating Free Culture, Free and Open Source Software, hardware hacking, digital rights, and all manner of collaborative cultural activities.",
+        "organiser": "Jon Spriggs for Public Software CIC",
+        "email": "oggcamp@sprig.gs",
+        "where": "Various places around the UK - this year in Sheffield.",
+        "when": "18th/19th August 2018",
         "twitter": "@oggcamp",
-        "website": "http://oggcamp.org",
-        "advertised": "Website, social media, mailing lists, word of mouth, print media (LXF and Linux Voice mags), local newspapers and radio"
+        "website": "https://oggcamp.org",
+        "advertised": "Website, social media, mailing lists, word of mouth, print media"
     },
     {
         "name": "PHPNW Annual Conference",
