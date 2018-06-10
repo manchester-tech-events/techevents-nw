@@ -11,6 +11,17 @@
         "advertised": "Twitter, Facebook, Meetup, Mailers to local tech business & universities, Word of Mouth"
     },
     {
+    "name": "Digital Heroes",
+    "description": "Digital social involving fancy dress and shenanigans",
+    "organiser": "Scotty Vernon",
+    "email": "scotty@wildflame.co.uk",
+    "where": "Hold Fast Bar, NQ",
+    "when": "Annually in current format",
+    "twitter": "@digitalheroesuk",
+    "website": "http://digitalheroes.uk",
+    "advertised": "website, twitter @digitalheroesuk, social"
+    },
+    {
         "name": "DPM:UK - Digital PM Conference",
         "description": "DPM:UK is the ideal event for anyone involved in managing projects, people or products; from project manager to account manager, from product owner to technical lead, creative director to managing director. Whatever your role is, you can’t afford to miss this event.",
         "organiser": "Matt Thornhill",
@@ -31,6 +42,16 @@
         "twitter": "@flossuk",
         "website": "http://www.dynamiclanguages.co.uk/",
         "advertised": "twitter, word of mouth, website, facebook, mailing lists, Linux press"
+    }, {
+        "name": "FLOSS UK",
+        "description": "FLOSS UK, the UK open source advocacy group",
+        "organiser": "Ian Norton",
+        "email": "council@ukuug.org",
+        "where": "Location varies",
+        "when": "Annual Spring conference somewhere in the UK",
+        "twitter": "@flossuk",
+        "website": "http://www.flossuk.org/",
+        "advertised": "Facebook, Twitter, Website, Newsletter, Linux print media"
     },
     {
         "name": "Great Uni Hack",
@@ -125,8 +146,8 @@
         "description": "A FRONT-END CONFERENCE FOR ANYONE WHO MAKES FOR THE WEB",
         "organiser": "Simon Owen + others",
         "email": "s1000wen@gmail.com",
-        "where": "Comedy Store Deansgate",
-        "when": "18th/19th May 2015",
+        "where": "varies",
+        "when": "May",
         "twitter": "@upfrontconf",
         "website": "http://upfrontconf.com",
         "advertised": "twitter, word of month, Mcr Digital"
