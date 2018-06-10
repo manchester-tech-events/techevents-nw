@@ -1,0 +1,21 @@
+current directory: /home/developer/workspace/techevents-nw/gems/ruby/2.4.0/gems/bson_ext-1.12.5/ext/cbson
+/home/developer/.rvm/rubies/ruby-2.4.1/bin/ruby -r ./siteconf20180610-30659-xv0vtt.rb extconf.rb
+checking for asprintf()... yes
+checking for ruby/st.h... yes
+checking for ruby/regex.h... yes
+checking for ruby/encoding.h... yes
+creating Makefile
+
+current directory: /home/developer/workspace/techevents-nw/gems/ruby/2.4.0/gems/bson_ext-1.12.5/ext/cbson
+make "DESTDIR=" clean
+
+current directory: /home/developer/workspace/techevents-nw/gems/ruby/2.4.0/gems/bson_ext-1.12.5/ext/cbson
+make "DESTDIR="
+compiling bson_buffer.c
+compiling cbson.c
+compiling encoding_helpers.c
+linking shared-object bson_ext/cbson.so
+
+current directory: /home/developer/workspace/techevents-nw/gems/ruby/2.4.0/gems/bson_ext-1.12.5/ext/cbson
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cbson.so ./.gem.20180610-30659-ynmli4/bson_ext

@@ -1,0 +1,29 @@
+body{
+  background: #fc0 url(../images/bee.png) -73px -58px fixed no-repeat
+}
+
+.container{
+  background-color: rgba(255,255,255,.7);
+  margin: 0 5% 2% 5%;
+}
+
+.ui.huge.message {
+  background-color: rgba(255,255,255,.1);
+}
+
+.ui.segment {
+  background-color: rgba(255,255,255,0.7);
+  padding: 1em 2em;
+}
+
+.hidden{
+  opacity: 0;
+}
+
+.ui .button{
+  text-transform: capitalize;
+}
+
+.copy {
+    padding: 0 20px 20px;
+}

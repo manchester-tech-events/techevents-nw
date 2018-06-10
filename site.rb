@@ -52,7 +52,7 @@ class App < Sinatra::Application
 	end
 
 	get '/letter' do
-		erb :letter, :layout => :none
+		erb :letter, :layout => :layout
 	end
 
 	get '/conferences' do
