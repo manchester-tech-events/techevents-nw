@@ -721,5 +721,15 @@
 	"twitter": "@PyLadiesNWUK",
 	"website": "\n",
 	"advertised": "Twitter, meetup, word of mouth, Eventbrite"
+}, {
+    "name": "Expert Talks",
+    "description": "Equal Experts is an award-winning agile consultancy, specialising in simple software solutions for big business challenges. We’re increasing our involvement in the software community here with ExpertTalks – our informal gatherings for like-minded developers – which is now one of the top 3 largest meetups in Manchester. Join the group to hear about the latest events. Hope to see you soon!",
+    "organiser": "Equal Experts - contact Inga Gircyte",
+    "email": "igircyte@equalexperts.com",
+    "where": "Manchester, Leeds & Sheffield",
+    "when": "Approximately every 2 months in each location",
+    "twitter": "@equalexperts",
+    "website": "https://www.meetup.com/ExpertTalks-Manchester/",
+    "advertised": "All the details about upcoming events, including exact venues, speakers and times are regularly posted on MeetUp - please sign up for all the latest updates!"
 }
 ]
