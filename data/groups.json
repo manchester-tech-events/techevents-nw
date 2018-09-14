@@ -731,5 +731,15 @@
     "twitter": "@equalexperts",
     "website": "https://www.meetup.com/ExpertTalks-Manchester/",
     "advertised": "All the details about upcoming events, including exact venues, speakers and times are regularly posted on MeetUp - please sign up for all the latest updates!"
+}, {
+    "name": "Lancashire Tech Talks",
+    "description": "Lancashire Tech Talks is an open and friendly meetup for the local tech community in Lancashire. We welcome people with an interest in software development, web design, data science, UX and beyond! We're focussed on providing an inclusive environment for like minded people of all ages and levels of experience to get together for talks and demos about all things tech.",
+    "organiser": "Andy Norton",
+    "email": "andyjnorton@mac.com",
+    "where": "Blackburn, Lancashire",
+    "when": "Approximately every 2 months",
+    "twitter": "@lancstechtalks",
+    "website": "https://www.meetup.com/Lancashire-Tech-Talks/",
+    "advertised": "All the details about upcoming events are posted on MeetUp."
 }
 ]
