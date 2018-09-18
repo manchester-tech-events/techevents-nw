@@ -1,0 +1,12 @@
+version: 2
+jobs:
+  build:
+    docker:
+       - image: circleci/ruby:2.4.1-node-browsers
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run: echo "Testing"
+      - run: heroku config:set 'RACK_ENV'='production' --app techevents-nw
+      - run: '[[ ! -s "$(git rev-parse --git-dir)/shallow" ]] || git fetch --unshallow'
+      - run: git push git@heroku.com:techevents-nw.git $CIRCLE_SHA1:refs/heads/master
