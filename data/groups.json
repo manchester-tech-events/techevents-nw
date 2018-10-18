@@ -722,24 +722,35 @@
 	"website": "\n",
 	"advertised": "Twitter, meetup, word of mouth, Eventbrite"
 }, {
-    "name": "Expert Talks",
-    "description": "Equal Experts is an award-winning agile consultancy, specialising in simple software solutions for big business challenges. We’re increasing our involvement in the software community here with ExpertTalks – our informal gatherings for like-minded developers – which is now one of the top 3 largest meetups in Manchester. Join the group to hear about the latest events. Hope to see you soon!",
-    "organiser": "Equal Experts - contact Inga Gircyte",
-    "email": "igircyte@equalexperts.com",
-    "where": "Manchester, Leeds & Sheffield",
-    "when": "Approximately every 2 months in each location",
-    "twitter": "@equalexperts",
-    "website": "https://www.meetup.com/ExpertTalks-Manchester/",
-    "advertised": "All the details about upcoming events, including exact venues, speakers and times are regularly posted on MeetUp - please sign up for all the latest updates!"
+    	"name": "Expert Talks",
+    	"description": "Equal Experts is an award-winning agile consultancy, specialising in simple software solutions for big business challenges. We’re increasing our involvement in the software community here with ExpertTalks – our informal gatherings for like-minded developers – which is now one of the top 3 largest meetups in Manchester. Join the group to hear about the latest events. Hope to see you soon!",
+    	"organiser": "Equal Experts - contact Inga Gircyte",
+    	"email": "igircyte@equalexperts.com",
+    	"where": "Manchester, Leeds & Sheffield",
+    	"when": "Approximately every 2 months in each location",
+    	"twitter": "@equalexperts",
+    	"website": "https://www.meetup.com/ExpertTalks-Manchester/",
+    	"advertised": "All the details about upcoming events, including exact venues, speakers and times are regularly posted on MeetUp - please sign up for all the latest updates!"
 }, {
-    "name": "Lancashire Tech Talks",
-    "description": "Lancashire Tech Talks is an open and friendly meetup for the local tech community in Lancashire. We welcome people with an interest in software development, web design, data science, UX and beyond! We're focussed on providing an inclusive environment for like minded people of all ages and levels of experience to get together for talks and demos about all things tech.",
-    "organiser": "Andy Norton",
-    "email": "andyjnorton@mac.com",
-    "where": "Blackburn, Lancashire",
-    "when": "Approximately every 2 months",
-    "twitter": "@lancstechtalks",
-    "website": "https://www.meetup.com/Lancashire-Tech-Talks/",
-    "advertised": "All the details about upcoming events are posted on MeetUp."
+    	"name": "Lancashire Tech Talks",
+    	"description": "Lancashire Tech Talks is an open and friendly meetup for the local tech community in Lancashire. We welcome people with an interest in software development, web design, data science, UX and beyond! We're focussed on providing an inclusive environment for like minded people of all ages and levels of experience to get together for talks and demos about all things tech.",
+    	"organiser": "Andy Norton",
+    	"email": "andyjnorton@mac.com",
+    	"where": "Blackburn, Lancashire",
+    	"when": "Approximately every 2 months",
+    	"twitter": "@lancstechtalks",
+    	"website": "https://www.meetup.com/Lancashire-Tech-Talks/",
+    	"advertised": "All the details about upcoming events are posted on MeetUp."
+},
+{
+	"name": "GDG Liverpool",
+    	"description": "Google Developer Group (GDG) Liverpool is a meetup for Developer enthusiasts in the local community. Focusing primarily on Android and Google technology. Join us for demos, talks and discussions of new technologies, followed by a social - To meet other like minded professionals, and to learn and support one another. Disclaimer: Google Developer Group Liverpool is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation.",
+    	"organiser": "Niamh Power and Joe Timmins",
+    	"email": "joe@novoda.com",
+    	"where": "Liverpool",
+    	"when": "Approximately every 2 months",
+    	"twitter": "@gdg_liverpool",
+    	"website": "https://www.meetup.com/GDG-Liverpool/",
+    	"advertised": "Meetup, Twitter, word of mouth"	 
 }
 ]
